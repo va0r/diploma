@@ -8,6 +8,7 @@ from dotenv import load_dotenv, find_dotenv
 from sqlalchemy import create_engine
 
 from Analytics.code import Analytics
+from PostgresDB.code import PostgresDB
 from TelegramMessenger.code import TelegramMessenger
 
 load_dotenv(find_dotenv())
@@ -56,8 +57,9 @@ class Application:
                     }
 
                     df = pd.DataFrame([data__dict])
-                    engine = create_engine(f"postgresql://{os.getenv('POSTGRES_ACCESS_LINE')}")
-                    df.to_sql('SESSION', engine, if_exists='append', index=False)
+
+                    db = PostgresDB()
+                    db.load_dataframe(df, 'SESSION', if_exists='append')
 
             else:
                 self.start = self.now
