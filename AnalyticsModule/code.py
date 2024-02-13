@@ -9,7 +9,7 @@ from dotenv import load_dotenv, find_dotenv
 from scipy import stats
 
 from PostgresDBModule.code import PostgresDBClass
-from constants import columns__dict, columns__list
+from FixedVariables.constants import columns__dict, columns__list
 
 load_dotenv(find_dotenv())
 
