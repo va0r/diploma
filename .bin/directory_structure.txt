@@ -1,0 +1,39 @@
+📁 AnalyticsModule
+    📄 code.py
+    📄 test_Analytics.py
+    📄 correlation.ipynb
+    📄 __init__.py
+📄 Dockerfile
+📁 ApplicationModule
+    📄 test_Application.py
+    📄 code.py
+    📄 __init__.py
+📄 .env
+📁 CSVData
+    📄 ethereum.csv
+    📄 bitcoin.csv
+📄 app.py
+📄 requirements.txt
+📄 directory_structure.txt
+📄 docker-compose.yml
+📁 .flake8_text_report
+    📄 flake8_report.txt
+📄 structure.py
+📁 TelegramMessengerModule
+    📄 code.py
+    📄 test_TelegramMessenger.py
+    📄 __init__.py
+📁 .bin
+    📄 stop_all.sh
+    📄 psql_restart.sh
+    📄 directory_structure.txt
+    📄 structure.py
+    📄 flake8.py
+📁 FixedVariables
+    📄 constants.py
+📄 .flake8
+📁 PostgresDBModule
+    📄 code.py
+    📄 test_PostgresDB.py
+    📄 __init__.py
+📄 .dockerignore
