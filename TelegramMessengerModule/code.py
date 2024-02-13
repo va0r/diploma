@@ -1,7 +1,7 @@
 import aiohttp
 
 
-class TelegramMessenger:
+class TelegramMessengerClass:
     def __init__(self, token):
         self.token = token
         self.url = f"https://api.telegram.org/bot{self.token}/sendMessage"

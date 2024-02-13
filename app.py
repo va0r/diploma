@@ -7,12 +7,12 @@ from binance import AsyncClient, BinanceSocketManager
 from binance.exceptions import BinanceAPIException
 from dotenv import load_dotenv, find_dotenv
 
-from Application.code import Application
+from ApplicationModule.code import ApplicationClass
 
 load_dotenv(find_dotenv())
 
 
-class Process(Application):
+class Process(ApplicationClass):
     """
     # TODO add documentation
     """

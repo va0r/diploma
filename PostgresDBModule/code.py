@@ -4,7 +4,7 @@ import pandas as pd
 from sqlalchemy import create_engine, MetaData
 
 
-class PostgresDB:
+class PostgresDBClass:
     def __init__(self):
         postgres_access_line = os.getenv('POSTGRES_ACCESS_LINE')
         if not postgres_access_line:

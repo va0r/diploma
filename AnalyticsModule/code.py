@@ -8,13 +8,13 @@ from binance.exceptions import BinanceAPIException
 from dotenv import load_dotenv, find_dotenv
 from scipy import stats
 
-from PostgresDB.code import PostgresDB
+from PostgresDBModule.code import PostgresDBClass
 from constants import columns__dict, columns__list
 
 load_dotenv(find_dotenv())
 
 
-class Analytics:
+class AnalyticsClass:
     """
     # TODO add documentation
     """
@@ -40,7 +40,7 @@ class Analytics:
 
                 df1[slice__list], df2[slice__list] = convert_df(df1[slice__list]), convert_df(df2[slice__list])
 
-                db = PostgresDB()
+                db = PostgresDBClass()
 
                 db.load_dataframe(df1, 'BTCUSDT', dtype=columns__dict)
                 db.load_dataframe(df2, 'ETHUSDT', dtype=columns__dict)

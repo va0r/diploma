@@ -6,20 +6,20 @@ import pandas as pd
 from binance.client import Client
 from dotenv import load_dotenv, find_dotenv
 
-from Analytics.code import Analytics
-from PostgresDB.code import PostgresDB
-from TelegramMessenger.code import TelegramMessenger
+from AnalyticsModule.code import AnalyticsClass
+from PostgresDBModule.code import PostgresDBClass
+from TelegramMessengerModule.code import TelegramMessengerClass
 
 load_dotenv(find_dotenv())
 
 
-class Application:
+class ApplicationClass:
     """
     # TODO add documentation
     """
 
     def __init__(self, interval=Client.KLINE_INTERVAL_15MINUTE, threshold=1., days=30, minutes=60):
-        self.slope, self.intercept = Analytics(interval, days).create_coefficients()
+        self.slope, self.intercept = AnalyticsClass(interval, days).create_coefficients()
         self.now, self.btcusdt, self.ethusdt, self.ethusdt_decoupled_prev = None, None, None, None
         self.threshold, self.minutes = threshold, minutes
         self.start, self.delta = datetime.utcnow(), timedelta(minutes=minutes)
@@ -42,7 +42,7 @@ class Application:
                                f'within {self.minutes} minutes '
                                f'starting from {self.start.strftime("%Y-%m-%d %H:%M:%S")} UTC')
                     try:
-                        await TelegramMessenger(os.getenv('BOT_TOKEN')).send_message(os.getenv('TELEGRAM_ID'), message)
+                        await TelegramMessengerClass(os.getenv('BOT_TOKEN')).send_message(os.getenv('TELEGRAM_ID'), message)
                     except Exception as e:
                         logging.exception(f'Process.application: {e.__dict__}')
                     print(message)
@@ -57,7 +57,7 @@ class Application:
 
                     df = pd.DataFrame([data__dict])
 
-                    db = PostgresDB()
+                    db = PostgresDBClass()
                     db.load_dataframe(df, 'SESSION', if_exists='append')
 
             else:
