@@ -17,7 +17,7 @@ class PostgresDBClass:
     def load_dataframe(self, dataframe, table_name, if_exists='replace', index=False, dtype=None):
         if table_name == 'SESSION':
             if table_name in self.metadata.tables:
-                existing_df = pd.read_sql(table_name, self.engine)
+                existing_df = pd.read_sql(table_name, self.engine, columns=['datetime'])
                 max_datetime_existing = existing_df['datetime'].max()
                 current_datetime = pd.Timestamp.now() - pd.Timedelta(hours=3)
                 time_difference = current_datetime - max_datetime_existing
