@@ -14,11 +14,9 @@
     📄 bitcoin.csv
 📄 app.py
 📄 requirements.txt
-📄 directory_structure.txt
 📄 docker-compose.yml
 📁 .flake8_text_report
     📄 flake8_report.txt
-📄 structure.py
 📁 TelegramMessengerModule
     📄 code.py
     📄 test_TelegramMessenger.py
