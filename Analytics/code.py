@@ -35,7 +35,6 @@ class Analytics:
             df1, df2 = create_df('BTCUSDT'), create_df('ETHUSDT')
 
             try:
-                # Конвертируем bigint в datetime
                 convert_df = lambda df: df.apply(pd.to_datetime, unit='ms')
                 slice__list = ['Open time', 'Close time']
 
