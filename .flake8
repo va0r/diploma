@@ -2,5 +2,8 @@
 exclude =
     .venv,
     .idea,
-    data,
-    .git
+    .git,
+    .bin,
+    .flake8_text_report,
+    CSVData,
+    FixedVariables
