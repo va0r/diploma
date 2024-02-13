@@ -19,7 +19,7 @@ class PostgresDBClass:
             if table_name in self.metadata.tables:
                 existing_df = pd.read_sql(table_name, self.engine)
                 max_datetime_existing = existing_df['datetime'].max()
-                current_datetime = pd.Timestamp.now()
+                current_datetime = pd.Timestamp.now() - pd.Timedelta(hours=3)
                 time_difference = current_datetime - max_datetime_existing
                 if time_difference > pd.Timedelta(hours=1):
                     dataframe.to_sql(table_name, self.engine, if_exists=if_exists, index=index, dtype=dtype)

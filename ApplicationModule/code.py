@@ -58,7 +58,7 @@ class ApplicationClass:
                     df = pd.DataFrame([data__dict])
 
                     db = PostgresDBClass()
-                    db.load_dataframe(df, 'SESSION', if_exists='append')
+                    db.load_dataframe(df, 'SESSION')
 
             else:
                 self.start = self.now
