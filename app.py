@@ -43,8 +43,5 @@ class Process(Application):
 
 
 if __name__ == "__main__":
-
-    # TODO удалить все данные из таблицы SESSION
-
     loop = asyncio.get_event_loop()
     loop.run_until_complete(Process().activate())
