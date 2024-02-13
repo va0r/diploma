@@ -23,6 +23,7 @@ decorator==5.1.1
 defusedxml==0.7.1
 executing==2.0.1
 fastjsonschema==2.19.1
+flake8==7.0.0
 fqdn==1.5.1
 frozenlist==1.4.1
 greenlet==3.0.3
@@ -54,6 +55,7 @@ jupyterlab_widgets==3.0.10
 kaggle==1.6.5
 MarkupSafe==2.1.5
 matplotlib-inline==0.1.6
+mccabe==0.7.0
 mistune==3.0.2
 multidict==6.0.5
 nbclient==0.9.0
@@ -77,8 +79,10 @@ psycopg2-binary==2.9.9
 ptyprocess==0.7.0
 pure-eval==0.2.2
 pyarrow==15.0.0
+pycodestyle==2.11.1
 pycparser==2.21
 pycryptodome==3.20.0
+pyflakes==3.2.0
 Pygments==2.17.2
 pypika-tortoise==0.1.6
 python-binance==1.0.19

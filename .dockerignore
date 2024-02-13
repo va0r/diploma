@@ -1,7 +1,10 @@
 .dockerignore
+.flake8
 .git
 .gitignore
 .idea
 .venv
 README.md
 __pycache__
+flake8_text_report
+scripts

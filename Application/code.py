@@ -5,7 +5,6 @@ from datetime import datetime, timedelta
 import pandas as pd
 from binance.client import Client
 from dotenv import load_dotenv, find_dotenv
-from sqlalchemy import create_engine
 
 from Analytics.code import Analytics
 from PostgresDB.code import PostgresDB
