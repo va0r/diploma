@@ -14,13 +14,12 @@ load_dotenv(find_dotenv())
 
 class Process(Application):
     """
-    Asynchronously retrieve and process current data.
+    # TODO add documentation
     """
 
     async def futures_listener(self, client):
         """
-        The coroutine to infinitely retrieve and set the current BTCUSDT and ETHUSDT price
-        and time data from the websocket stream and then call the processing coroutine.
+        # TODO add documentation
         """
 
         try:

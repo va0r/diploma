@@ -15,7 +15,7 @@ load_dotenv(find_dotenv())
 
 class Application:
     """
-    Asynchronously retrieve and process current data.
+    # TODO add documentation
     """
 
     def __init__(self, interval=Client.KLINE_INTERVAL_15MINUTE, threshold=1., days=30, minutes=60):
@@ -26,8 +26,7 @@ class Application:
 
     async def application(self):
         """
-        The coroutine to find independent of BTCUSDT ETHUSDT futures price movements and
-        to send the console message if they change beyond a threshold within a time period.
+        # TODO add documentation
         """
 
         if self.ethusdt and self.btcusdt:

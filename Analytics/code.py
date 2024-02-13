@@ -17,10 +17,7 @@ load_dotenv(find_dotenv())
 
 class Analytics:
     """
-    Get historical data for modelling.
-    Fill DB with historical data.
-    Apply the linear regression.
-    Return: slope and intercept coefficients.
+    # TODO add documentation
     """
 
     def __init__(self, interval, days):
