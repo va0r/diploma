@@ -17,11 +17,9 @@ def print_directory_structure(directory, gitignore_rules, indent=0, file=None):
         file.close()
 
 
-# Укажите путь к каталогу, структуру которого вы хотите вывести
 directory_path = "../"
 gitignore_path = "../.gitignore"
 
-# Парсим файл .gitignore
 with open(gitignore_path, 'r') as f:
     gitignore_rules = f.read().splitlines()
 
