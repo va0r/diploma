@@ -7,6 +7,7 @@
 📁 ApplicationModule
     📄 test_Application.py
     📄 code.py
+    📄 pcb.py
     📄 __init__.py
 📄 .env
 📁 CSVData
@@ -14,6 +15,9 @@
     📄 bitcoin.csv
 📄 app.py
 📄 requirements.txt
+📁 LoguruModule
+    📄 code.py
+    📄 __init__.py
 📄 docker-compose.yml
 📁 .flake8_text_report
     📄 flake8_report.txt
