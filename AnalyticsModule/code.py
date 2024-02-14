@@ -6,8 +6,10 @@ import pandas as pd
 from binance.client import Client
 from binance.exceptions import BinanceAPIException
 from dotenv import load_dotenv, find_dotenv
+from loguru import logger
 from scipy import stats
 
+from LoguruModule.code import LoguruDecoratorClass
 from PostgresDBModule.code import PostgresDBClass
 from FixedVariables.constants import columns__dict, columns__list
 
@@ -24,6 +26,7 @@ class AnalyticsClass:
         self.interval, self.days = interval, days
 
     @property
+    @LoguruDecoratorClass(level="INFO")
     def get_data(self):
         start_point = (datetime.now() - timedelta(days=self.days)).strftime("%d %B, %Y")
 
@@ -46,13 +49,16 @@ class AnalyticsClass:
                 db.load_dataframe(df2, 'ETHUSDT', dtype=columns__dict)
 
             except Exception as e:
+                logger.add("../logfile.log", level='ERROR', format="{time} {level} {message}")
                 logging.exception(f'Error loading data to PostgreSQL: {e}')
 
             return df1.iloc[:, 4].astype(float).values, df2.iloc[:, 4].astype(float).values
         except BinanceAPIException as e:
+            logger.add("../logfile.log", level='ERROR', format="{time} {level} {message}")
             logging.exception(f'Analytics.get_data: {e.status_code}, {e.message}')
             sys.exit(1)
 
+    @LoguruDecoratorClass(level="INFO")
     def create_coefficients(self):
         x, y = self.get_data
         stats_lr = stats.linregress(x, y)

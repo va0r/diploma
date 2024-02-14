@@ -5,8 +5,10 @@ from datetime import datetime, timedelta
 import pandas as pd
 from binance.client import Client
 from dotenv import load_dotenv, find_dotenv
+from loguru import logger
 
 from AnalyticsModule.code import AnalyticsClass
+from LoguruModule.code import LoguruDecoratorClass
 from PostgresDBModule.code import PostgresDBClass
 from TelegramMessengerModule.code import TelegramMessengerClass
 
@@ -44,6 +46,7 @@ class ApplicationClass:
                     try:
                         await TelegramMessengerClass(os.getenv('BOT_TOKEN')).send_message(os.getenv('TELEGRAM_ID'), message)
                     except Exception as e:
+                        logger.add("../logfile.log", level='ERROR', format="{time} {level} {message}")
                         logging.exception(f'Process.application: {e.__dict__}')
                     print(message)
 

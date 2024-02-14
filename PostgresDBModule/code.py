@@ -3,6 +3,8 @@ import os
 import pandas as pd
 from sqlalchemy import create_engine, MetaData
 
+from LoguruModule.code import LoguruDecoratorClass
+
 
 class PostgresDBClass:
     def __init__(self):
@@ -14,6 +16,7 @@ class PostgresDBClass:
         self.metadata = MetaData()
         self.metadata.reflect(bind=self.engine)
 
+    @LoguruDecoratorClass(level="INFO")
     def load_dataframe(self, dataframe, table_name, if_exists='replace', index=False, dtype=None):
         if table_name == 'SESSION':
             if table_name in self.metadata.tables:
