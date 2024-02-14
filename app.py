@@ -9,6 +9,7 @@ from dotenv import load_dotenv, find_dotenv
 from loguru import logger
 
 from ApplicationModule.code import ApplicationClass
+from ApplicationModule.pcb import print_colored_and_boxed
 from LoguruModule.code import LoguruDecoratorClass
 
 load_dotenv(find_dotenv())
@@ -42,7 +43,7 @@ class Process(ApplicationClass):
 
     @LoguruDecoratorClass(level="INFO")
     async def activate(self):
-        print('Start listening...')
+        print_colored_and_boxed('Start listening...', 'RED')
         client = await AsyncClient.create()
         await self.futures_listener(client)
 

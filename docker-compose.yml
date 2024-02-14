@@ -4,7 +4,7 @@ services:
 
   db:
     image: postgres:latest
-    env_file: .env
+    env_file: .env.docker
     volumes:
       - pg_data:/var/lib/postgresql/data
     ports:
@@ -18,10 +18,10 @@ services:
   app:
     build: .
     tty: true
-    command: python app.py
+    command: sh -c "python app.py"
     volumes:
       - .:/code
-    env_file: .env
+    env_file: .env.docker
     depends_on:
       db:
         condition: service_healthy
