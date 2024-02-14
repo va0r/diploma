@@ -47,7 +47,7 @@ class ApplicationClass:
                         await TelegramMessengerClass(os.getenv('BOT_TOKEN')).send_message(os.getenv('TELEGRAM_ID'),
                                                                                           message)
                     except Exception as e:
-                        logger.add("../logfile.log", level='ERROR', format="{time} {level} {message}")
+                        logger.add("../logfile.json", level='ERROR', format="{time} {level} {message}", serialize=True)
                         logging.exception(f'Process.application: {e.__dict__}')
                     print_colored_and_boxed(message)
 

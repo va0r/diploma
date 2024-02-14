@@ -4,5 +4,5 @@
 README.md
 __pycache__
 .pytest_cache
-logfile.log
+logfile.json
 lo_guru.py

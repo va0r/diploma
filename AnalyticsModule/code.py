@@ -49,12 +49,12 @@ class AnalyticsClass:
                 db.load_dataframe(df2, 'ETHUSDT', dtype=columns__dict)
 
             except Exception as e:
-                logger.add("../logfile.log", level='ERROR', format="{time} {level} {message}")
+                logger.add("../logfile.json", level='ERROR', format="{time} {level} {message}", serialize=True)
                 logging.exception(f'Error loading data to PostgreSQL: {e}')
 
             return df1.iloc[:, 4].astype(float).values, df2.iloc[:, 4].astype(float).values
         except BinanceAPIException as e:
-            logger.add("../logfile.log", level='ERROR', format="{time} {level} {message}")
+            logger.add("../logfile.json", level='ERROR', format="{time} {level} {message}", serialize=True)
             logging.exception(f'Analytics.get_data: {e.status_code}, {e.message}')
             sys.exit(1)
 

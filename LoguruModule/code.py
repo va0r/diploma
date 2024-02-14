@@ -2,13 +2,14 @@ from loguru import logger
 
 
 class LoguruDecoratorClass:
-    def __init__(self, level="INFO", rotation="24h"):
+    def __init__(self, level="INFO", rotation="24h", serializer=True):
         self.level = level
         self.rotation = rotation
+        self.serializer = serializer
 
     def __call__(self, func):
         def wrapper(*args, **kwargs):
-            logger.add("logfile.log", level=self.level)  # Установка уровня логирования
+            logger.add("logfile.json", level=self.level, rotation=self.rotation, serialize=self.serializer)
             logger.log(self.level, f"Вызов функции {func.__name__} с аргументами: {args = }, {kwargs = }")
             result = func(*args, **kwargs)
             logger.log(self.level, f"Результат выполнения функции {func.__name__}: {result = }")
