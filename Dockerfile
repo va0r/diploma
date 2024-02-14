@@ -16,5 +16,3 @@ COPY TelegramMessengerModule/ TelegramMessengerModule/
 COPY .env .env
 COPY .env.docker .env.docker
 COPY app.py app.py
-
-#COPY . .

@@ -14,6 +14,7 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
+    container_name: diploma-db
 
   app:
     build:
@@ -27,6 +28,7 @@ services:
     depends_on:
       db:
         condition: service_healthy
+    container_name: diploma-app
 
 volumes:
   pg_data:
