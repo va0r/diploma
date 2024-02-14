@@ -9,7 +9,6 @@ from loguru import logger
 
 from AnalyticsModule.code import AnalyticsClass
 from ApplicationModule.pcb import print_colored_and_boxed
-from LoguruModule.code import LoguruDecoratorClass
 from PostgresDBModule.code import PostgresDBClass
 from TelegramMessengerModule.code import TelegramMessengerClass
 
@@ -45,7 +44,8 @@ class ApplicationClass:
                                f'within {self.minutes} minutes '
                                f'starting from {self.start.strftime("%Y-%m-%d %H:%M:%S")} UTC')
                     try:
-                        await TelegramMessengerClass(os.getenv('BOT_TOKEN')).send_message(os.getenv('TELEGRAM_ID'), message)
+                        await TelegramMessengerClass(os.getenv('BOT_TOKEN')).send_message(os.getenv('TELEGRAM_ID'),
+                                                                                          message)
                     except Exception as e:
                         logger.add("../logfile.log", level='ERROR', format="{time} {level} {message}")
                         logging.exception(f'Process.application: {e.__dict__}')
