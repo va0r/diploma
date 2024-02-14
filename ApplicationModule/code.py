@@ -8,6 +8,7 @@ from dotenv import load_dotenv, find_dotenv
 from loguru import logger
 
 from AnalyticsModule.code import AnalyticsClass
+from ApplicationModule.pcb import print_colored_and_boxed
 from LoguruModule.code import LoguruDecoratorClass
 from PostgresDBModule.code import PostgresDBClass
 from TelegramMessengerModule.code import TelegramMessengerClass
@@ -48,7 +49,7 @@ class ApplicationClass:
                     except Exception as e:
                         logger.add("../logfile.log", level='ERROR', format="{time} {level} {message}")
                         logging.exception(f'Process.application: {e.__dict__}')
-                    print(message)
+                    print_colored_and_boxed(message)
 
                     data__dict = {
                         'datetime': self.now,
