@@ -1,6 +1,6 @@
-.git
-.idea
-.venv
+.git/
+.idea/
+.venv/
 README.md
-__pycache__
-.pytest_cache
+__pycache__/
+.pytest_cache/

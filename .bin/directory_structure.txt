@@ -3,6 +3,7 @@
     📄 test_Analytics.py
     📄 correlation.ipynb
     📄 __init__.py
+📄 logfile.json
 📄 Dockerfile
 📁 ApplicationModule
     📄 test_Application.py
@@ -38,4 +39,5 @@
     📄 code.py
     📄 test_PostgresDB.py
     📄 __init__.py
+📄 .env.docker
 📄 .dockerignore
