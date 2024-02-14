@@ -16,12 +16,16 @@ services:
       retries: 5
 
   app:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     tty: true
     command: sh -c "python app.py"
     volumes:
       - .:/code
-    env_file: .env.docker
+    env_file:
+      - .dockerignore
+      - .env.docker
     depends_on:
       db:
         condition: service_healthy
