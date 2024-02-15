@@ -4,21 +4,16 @@
     📄 ethereum_price.png
     📄 test_Analytics.py
     📄 bitcoin_price.png
-    📁 .pytest_cache
     📄 correlation.ipynb
     📄 __init__.py
-    📁 __pycache__
 📄 logfile.json
-📁 .git
 📄 Dockerfile
 📁 ApplicationModule
     📄 test_Application.py
     📄 code.py
     📄 pcb.py
     📄 __init__.py
-    📁 __pycache__
 📄 .env
-📁 .venv
 📁 CSVData
     📄 ethereum.csv
     📄 bitcoin.csv
@@ -27,7 +22,6 @@
 📁 LoguruModule
     📄 code.py
     📄 __init__.py
-    📁 __pycache__
 📄 start.sh
 📄 docker-compose.yml
 📄 README.md
@@ -37,24 +31,18 @@
     📄 code.py
     📄 test_TelegramMessenger.py
     📄 __init__.py
-    📁 __pycache__
 📁 .bin
     📄 stop_all.sh
     📄 psql_restart.sh
     📄 directory_structure.txt
     📄 structure.py
     📄 flake8.py
-📄 .gitignore
 📁 FixedVariables
     📄 constants.py
-    📁 __pycache__
 📄 .flake8
 📁 PostgresDBModule
     📄 code.py
     📄 test_PostgresDB.py
     📄 __init__.py
-    📁 __pycache__
 📄 .env.docker
 📄 .dockerignore
-📁 __pycache__
-📁 .idea
