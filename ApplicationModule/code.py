@@ -26,6 +26,7 @@ class ApplicationClass:
         self.threshold, self.minutes = threshold, minutes
         self.start, self.delta = datetime.utcnow(), timedelta(minutes=minutes)
 
+    @logger.catch()
     async def application(self):
         """
         # TODO add documentation
