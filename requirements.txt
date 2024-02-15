@@ -19,6 +19,8 @@ cffi==1.16.0
 charset-normalizer==3.3.2
 colorama==0.4.6
 comm==0.2.1
+contourpy==1.2.0
+cycler==0.12.1
 dateparser==1.2.0
 debugpy==1.8.1
 decorator==5.1.1
@@ -26,6 +28,7 @@ defusedxml==0.7.1
 executing==2.0.1
 fastjsonschema==2.19.1
 flake8==7.0.0
+fonttools==4.48.1
 fqdn==1.5.1
 frozenlist==1.4.1
 gitignore_parser==0.1.11
@@ -57,8 +60,10 @@ jupyterlab_pygments==0.3.0
 jupyterlab_server==2.25.2
 jupyterlab_widgets==3.0.10
 kaggle==1.6.5
+kiwisolver==1.4.5
 loguru==0.7.2
 MarkupSafe==2.1.5
+matplotlib==3.8.3
 matplotlib-inline==0.1.6
 mccabe==0.7.0
 mistune==3.0.2
@@ -76,6 +81,7 @@ pandas==2.2.0
 pandocfilters==1.5.1
 parso==0.8.3
 pexpect==4.9.0
+pillow==10.2.0
 platformdirs==4.2.0
 pluggy==1.4.0
 prometheus-client==0.19.0
@@ -90,6 +96,7 @@ pycparser==2.21
 pycryptodome==3.20.0
 pyflakes==3.2.0
 Pygments==2.17.2
+pyparsing==3.1.1
 pypika-tortoise==0.1.6
 pytest==8.0.0
 pytest-asyncio==0.23.5
