@@ -9,7 +9,7 @@ class LoguruDecoratorClass:
 
     def __call__(self, func):
         def wrapper(*args, **kwargs):
-            logger.add("logfile.json",
+            logger.add("../logfile.json",
                        level=self.level,
                        rotation=self.rotation,
                        serialize=self.serializer)
