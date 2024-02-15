@@ -22,6 +22,7 @@
 Данные графиков состоят из ежедневных значений соответствующих фьючерсов. 
 
 ```python
+from scipy.stats import pearsonr
 correlation, p_value = pearsonr(BTC, ETH)
 print("Pearson's product-moment correlation:")
 print(f"Correlation: {correlation:.4f}")
