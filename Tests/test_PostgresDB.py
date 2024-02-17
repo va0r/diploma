@@ -35,21 +35,21 @@ class TestPostgresDBClass(unittest.TestCase):
                 mock_now.return_value = pd.Timestamp('2024-02-17 15:00:00')
                 mock_read_sql.return_value = existing_df
 
-                # Testing for SESSION table
+                # Для таблицы SESSION
                 self.postgres_instance.load_dataframe(test_dataframe, 'SESSION')
                 mock_read_sql.assert_called_once_with('SESSION', mock_engine_instance, columns=['datetime'])
                 mock_create_engine.assert_called()
 
-                # Testing for non-SESSION table
+                # Для таблицы, отличной от SESSION
                 self.postgres_instance.load_dataframe(test_dataframe, 'OTHER_TABLE')
                 mock_create_engine.assert_called()
 
-                # Testing for SESSION table with existing table and recent datetime
+                # Для таблицы SESSION с недавними данными
                 self.postgres_instance.load_dataframe(test_dataframe, 'SESSION')
                 mock_read_sql.assert_called_with('SESSION', mock_engine_instance, columns=['datetime'])
                 mock_create_engine.assert_called()
 
-                # Testing for SESSION table with existing table and old datetime
+                # Для таблицы SESSION со старыми данными
                 mock_read_sql.return_value = pd.DataFrame({'datetime': ['2024-01-01 12:00:00']})
                 self.postgres_instance.load_dataframe(test_dataframe, 'SESSION')
                 mock_read_sql.assert_called_with('SESSION', mock_engine_instance, columns=['datetime'])
