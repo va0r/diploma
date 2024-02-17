@@ -11,3 +11,4 @@ README.md
 .pytest_cache
 .coverage_html_report
 .coveragerc
+.coverage
