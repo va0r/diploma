@@ -1,0 +1,11 @@
+[run]
+omit =
+    .bin/*
+    CSVDATA/*
+    FixedVariables/*
+    */__init__.py
+    Tests/*
+    */test_*.py
+
+[html]
+directory = coverage_html_report
