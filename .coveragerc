@@ -8,4 +8,4 @@ omit =
     */test_*.py
 
 [html]
-directory = coverage_html_report
+directory = .coverage_html_report
