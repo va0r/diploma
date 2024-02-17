@@ -1,5 +1,6 @@
 import asyncio
 import logging
+import os
 import sys
 from datetime import datetime
 
@@ -37,7 +38,8 @@ class Process(ApplicationClass):
                         self.now = datetime.utcfromtimestamp(res['data']['E'] / 1000)
                     loop.call_soon(asyncio.create_task, self.application())
         except BinanceAPIException as e:
-            logger.add("logfile.json", level='ERROR', format="{time} {level} {message}")
+            logfile_path = os.path.join(os.getcwd(), "logfile.json")
+            logger.add(logfile_path, level='ERROR', format="{time} {level} {message}", serialize=True)
             logging.exception(f'Process.futures_listener: {e.status_code}, {e.message}')
             sys.exit(1)
 

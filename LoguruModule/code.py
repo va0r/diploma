@@ -1,3 +1,5 @@
+import os
+
 from loguru import logger
 
 
@@ -9,7 +11,8 @@ class LoguruDecoratorClass:
 
     def __call__(self, func):
         def wrapper(*args, **kwargs):
-            logger.add("logfile.json",
+            logfile_path = os.path.join(os.getcwd(), "logfile.json")
+            logger.add(logfile_path,
                        level=self.level,
                        rotation=self.rotation,
                        serialize=self.serializer)
