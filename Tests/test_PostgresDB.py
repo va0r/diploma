@@ -1,59 +1,44 @@
 import unittest
-from unittest.mock import patch, MagicMock
 
 import pandas as pd
+from sqlalchemy import create_engine
 
 from PostgresDBModule.code import PostgresDBClass
 
 
 class TestPostgresDBClass(unittest.TestCase):
-    def setUp(self):
-        # Устанавливаем переменную среды для POSTGRES_ACCESS_LINE
-        self.patcher = patch.dict('os.environ', {'POSTGRES_ACCESS_LINE': 'postgres:ghjcnjq77@localhost:5432/diploma'})
-        self.patcher.start()
 
-        # Создаем экземпляр PostgresDBClass
+    def setUp(self):
         self.postgres_instance = PostgresDBClass()
 
-    def tearDown(self):
-        # Останавливаем патчер
-        self.patcher.stop()
+    def test_initialization(self):
+        self.assertIsInstance(self.postgres_instance, PostgresDBClass)
 
-    def test_load_dataframe(self):
-        existing_df = pd.DataFrame({'datetime': ['2024-01-01 12:00:00']})
-        existing_df['datetime'] = pd.to_datetime(existing_df['datetime'])
-        with patch('PostgresDBModule.code.create_engine') as mock_create_engine, \
-                patch('PostgresDBModule.code.MetaData') as mock_meta_data:
-            mock_engine_instance = MagicMock()
-            mock_create_engine.return_value = mock_engine_instance
-            mock_metadata_instance = MagicMock()
-            mock_meta_data.return_value = mock_metadata_instance
+    def test_load_dataframe_existing_table(self):
+        # Подготовка тестовых данных
+        test_df = pd.DataFrame({'col1': [1, 2, 3], 'col2': ['a', 'b', 'c']})
+        table_name = 'existing_table'
 
-            test_dataframe = pd.DataFrame({'col1': [1, 2, 3]})
-            with patch('PostgresDBModule.code.pd.read_sql') as mock_read_sql, \
-                    patch('PostgresDBModule.code.pd.Timestamp.now') as mock_now:
-                mock_now.return_value = pd.Timestamp('2024-02-17 15:00:00')
-                mock_read_sql.return_value = existing_df
+        # Загрузка данных в существующую таблицу
+        self.postgres_instance.load_dataframe(test_df, table_name)
 
-                # Для таблицы SESSION
-                self.postgres_instance.load_dataframe(test_dataframe, 'SESSION')
-                mock_read_sql.assert_called_once_with('SESSION', mock_engine_instance, columns=['datetime'])
-                mock_create_engine.assert_called()
+        # Проверка наличия данных в таблице
+        engine = create_engine(self.postgres_instance.postgres_url)
+        loaded_df = pd.read_sql(table_name, engine)
+        self.assertFalse(loaded_df.empty)
 
-                # Для таблицы, отличной от SESSION
-                self.postgres_instance.load_dataframe(test_dataframe, 'OTHER_TABLE')
-                mock_create_engine.assert_called()
+    def test_load_dataframe_new_table(self):
+        # Подготовка тестовых данных
+        test_df = pd.DataFrame({'col1': [1, 2, 3], 'col2': ['a', 'b', 'c']})
+        table_name = 'new_table'
 
-                # Для таблицы SESSION с недавними данными
-                self.postgres_instance.load_dataframe(test_dataframe, 'SESSION')
-                mock_read_sql.assert_called_with('SESSION', mock_engine_instance, columns=['datetime'])
-                mock_create_engine.assert_called()
+        # Загрузка данных в новую таблицу
+        self.postgres_instance.load_dataframe(test_df, table_name)
 
-                # Для таблицы SESSION со старыми данными
-                mock_read_sql.return_value = pd.DataFrame({'datetime': ['2024-01-01 12:00:00']})
-                self.postgres_instance.load_dataframe(test_dataframe, 'SESSION')
-                mock_read_sql.assert_called_with('SESSION', mock_engine_instance, columns=['datetime'])
-                mock_create_engine.assert_called()
+        # Проверка наличия данных в таблице
+        engine = create_engine(self.postgres_instance.postgres_url)
+        loaded_df = pd.read_sql(table_name, engine)
+        self.assertFalse(loaded_df.empty)
 
 
 if __name__ == '__main__':

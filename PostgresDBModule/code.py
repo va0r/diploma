@@ -1,9 +1,12 @@
 import os
 
 import pandas as pd
+from dotenv import load_dotenv, find_dotenv
 from sqlalchemy import create_engine, MetaData
 
 from LoguruModule.code import LoguruDecoratorClass
+
+load_dotenv(find_dotenv())
 
 
 class PostgresDBClass:
