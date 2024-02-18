@@ -18,15 +18,14 @@ load_dotenv(find_dotenv())
 
 class Process(ApplicationClass):
     """
-    # TODO add documentation
+    Класс, обеспечивающий работу приложения.
+    Собирает воедино различные модули программы.
+    Использует асинхронный подход при работе.
+    Получает текущие данные о цене криптовалюты через BinanceSocketManager.
     """
 
     @LoguruDecoratorClass(level="INFO")
     async def futures_listener(self, client):
-        """
-        # TODO add documentation
-        """
-
         try:
             async with BinanceSocketManager(client).all_ticker_futures_socket() as stream:
                 while True:

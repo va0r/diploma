@@ -4,6 +4,10 @@ from loguru import logger
 
 
 class LoguruDecoratorClass:
+    """
+    Класс для логирования работы приложения.
+    Использует пакет loguru для записи лог-файла в формате json.
+    """
     def __init__(self, level="INFO", rotation="24h", serializer=True):
         self.level = level
         self.rotation = rotation

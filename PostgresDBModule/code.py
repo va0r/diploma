@@ -10,6 +10,10 @@ load_dotenv(find_dotenv())
 
 
 class PostgresDBClass:
+    """
+    Класс для работы с базой данных PostgreSQL.
+    Использует SQL Alchemy для записи исторических и текущих данных криптовалют в БД.
+    """
     def __init__(self):
         postgres_access_line = os.getenv('POSTGRES_ACCESS_LINE')
         if not postgres_access_line:

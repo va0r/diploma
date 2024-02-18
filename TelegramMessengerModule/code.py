@@ -4,6 +4,10 @@ from LoguruModule.code import LoguruDecoratorClass
 
 
 class TelegramMessengerClass:
+    """
+    Класс для работы с тг-ботом.
+    Реализует функционал отправки сообщения через тг-бот.
+    """
     def __init__(self, token):
         self.token = token
         self.url = f"https://api.telegram.org/bot{self.token}/sendMessage"

@@ -19,7 +19,22 @@ load_dotenv(find_dotenv())
 
 class AnalyticsClass:
     """
-    # TODO add documentation
+    Класс для работы с историческими данными криптовалют.
+
+    Получает исторические данные из Binance с помощью пакета python-binance.
+
+    Считает коэффициенты линейной регрессии с помощью пакета scypi.
+
+    Args:
+        interval (int): отсечки времени получения цены криптовалюты (измеряется в минутах/часах/днях)
+        days (int): период времени, за который получаются исторические данные (измеряется в днях)
+
+    Returns:
+        tuple[float, float]: кортеж значений слоуп и интерсепт.
+
+    Raises:
+        Exception: если не удается записать в БД.
+        BinanceAPIException: если не удается получить данные из Binance.
     """
 
     def __init__(self, interval, days):

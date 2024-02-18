@@ -17,7 +17,21 @@ load_dotenv(find_dotenv())
 
 class ApplicationClass:
     """
-    # TODO add documentation
+    Класс для работы с текущими данными криптовалют.
+
+    Получает текущие данные из Binance с помощью пакета python-binance.
+
+    Считает очищенные данные для тикета ETHUSDT, при соблюдении условий срабатывания триггеров --
+    печатает данные в консоль и посылает сообщение через тг-бот.
+
+    Args:
+        interval (int): отсечки времени получения цены криптовалюты (измеряется в минутах/часах/днях)
+        threshold (float): триггер срабатывания оповещения об изменении цены ETHUSDT (по умолчанию 1%)
+        days (int): период времени, за который получаются исторические данные (измеряется в днях)
+        minutes (int): период времени, на котором слушается цена криптовалют (изменяется в минутах, по умолчанию 60 минут)
+
+    Raises:
+        Exception: если не удается отправить сообщение через тг-бот.
     """
 
     def __init__(self, interval=Client.KLINE_INTERVAL_15MINUTE, threshold=1., days=30, minutes=60):
@@ -28,10 +42,6 @@ class ApplicationClass:
 
     @logger.catch()
     async def application(self):
-        """
-        # TODO add documentation
-        """
-
         if self.ethusdt and self.btcusdt:
             ethusdt_decoupled = abs(self.ethusdt - (self.intercept + self.slope * self.btcusdt))
 
