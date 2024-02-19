@@ -14,10 +14,10 @@ class TestTablesPostgresDBClass(unittest.TestCase):
         test_df = pd.DataFrame(np.array([['2024-02-02 02:02:02.002', 2000, 50000, 60, 1.15]]),
                                columns=['datetime', 'ethusdt', 'btcusdt', 'ethusdt_decoupled', 'percentage'])
         test_df = test_df.astype({'datetime': 'datetime64[ns]',
-                                   'ethusdt': float,
-                                   'btcusdt': float,
-                                   'ethusdt_decoupled': float,
-                                   'percentage': float})
+                                  'ethusdt': float,
+                                  'btcusdt': float,
+                                  'ethusdt_decoupled': float,
+                                  'percentage': float})
         self.test_dataframe = test_df
 
     @patch('pandas.read_sql', return_value=pd.DataFrame({'datetime': [datetime.now() - timedelta(hours=2)]}))
