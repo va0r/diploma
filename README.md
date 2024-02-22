@@ -64,6 +64,6 @@ cd diploma ; \
 sudo docker compose -f docker-compose.yml up --build 
 ```
 
-### Презентация
+### Презентация:
 
 [Link](https://www.notion.so/vialor/bff5aaa4842a4cb69051bd97fd6a950c?v=b3ba204c12014f88a14d8f515dbadd02 "TA7")
