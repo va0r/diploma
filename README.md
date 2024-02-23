@@ -29,7 +29,7 @@ print(f"Correlation: {correlation:.4f}")
 print(f"P-value: {p_value}")
 
 >>> Pearson's product-moment correlation:
->>> Correlation: 0.9418
+>>> Correlation: 0.9422
 >>> P-value: 0.0
 ```
 
