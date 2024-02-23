@@ -1,30 +1,2849 @@
-{"text": "2024-02-22 22:17:13.179 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb7b68f4250>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'OTHER_TABLE'), kwargs = {}\n", "record": {"elapsed": {"repr": "0:00:00.943486", "seconds": 0.943486}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 23, "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb7b68f4250>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'OTHER_TABLE'), kwargs = {}", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.179931+03:00", "timestamp": 1708629433.179931}}}
-{"text": "2024-02-22 22:17:13.234 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n", "record": {"elapsed": {"repr": "0:00:00.998078", "seconds": 0.998078}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 25, "message": "Результат выполнения функции load_dataframe: result = None", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.234523+03:00", "timestamp": 1708629433.234523}}}
-{"text": "2024-02-22 22:17:13.342 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c912050>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}\n", "record": {"elapsed": {"repr": "0:00:01.106377", "seconds": 1.106377}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 23, "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c912050>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.342822+03:00", "timestamp": 1708629433.342822}}}
-{"text": "2024-02-22 22:17:13.342 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c912050>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}\n", "record": {"elapsed": {"repr": "0:00:01.106377", "seconds": 1.106377}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 23, "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c912050>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.342822+03:00", "timestamp": 1708629433.342822}}}
-{"text": "2024-02-22 22:17:13.353 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n", "record": {"elapsed": {"repr": "0:00:01.117273", "seconds": 1.117273}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 25, "message": "Результат выполнения функции load_dataframe: result = None", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.353718+03:00", "timestamp": 1708629433.353718}}}
-{"text": "2024-02-22 22:17:13.353 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n", "record": {"elapsed": {"repr": "0:00:01.117273", "seconds": 1.117273}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 25, "message": "Результат выполнения функции load_dataframe: result = None", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.353718+03:00", "timestamp": 1708629433.353718}}}
-{"text": "2024-02-22 22:17:13.459 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c995450>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {'if_exists': 'replace'}\n", "record": {"elapsed": {"repr": "0:00:01.223185", "seconds": 1.223185}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 23, "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c995450>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {'if_exists': 'replace'}", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.459630+03:00", "timestamp": 1708629433.45963}}}
-{"text": "2024-02-22 22:17:13.459 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c995450>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {'if_exists': 'replace'}\n", "record": {"elapsed": {"repr": "0:00:01.223185", "seconds": 1.223185}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 23, "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c995450>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {'if_exists': 'replace'}", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.459630+03:00", "timestamp": 1708629433.45963}}}
-{"text": "2024-02-22 22:17:13.459 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c995450>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {'if_exists': 'replace'}\n", "record": {"elapsed": {"repr": "0:00:01.223185", "seconds": 1.223185}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 23, "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c995450>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {'if_exists': 'replace'}", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.459630+03:00", "timestamp": 1708629433.45963}}}
-{"text": "2024-02-22 22:17:13.470 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n", "record": {"elapsed": {"repr": "0:00:01.234445", "seconds": 1.234445}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 25, "message": "Результат выполнения функции load_dataframe: result = None", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.470890+03:00", "timestamp": 1708629433.47089}}}
-{"text": "2024-02-22 22:17:13.470 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n", "record": {"elapsed": {"repr": "0:00:01.234445", "seconds": 1.234445}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 25, "message": "Результат выполнения функции load_dataframe: result = None", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.470890+03:00", "timestamp": 1708629433.47089}}}
-{"text": "2024-02-22 22:17:13.470 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n", "record": {"elapsed": {"repr": "0:00:01.234445", "seconds": 1.234445}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 25, "message": "Результат выполнения функции load_dataframe: result = None", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.470890+03:00", "timestamp": 1708629433.47089}}}
-{"text": "2024-02-22 22:17:13.579 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c50de50>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}\n", "record": {"elapsed": {"repr": "0:00:01.342712", "seconds": 1.342712}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 23, "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c50de50>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.579157+03:00", "timestamp": 1708629433.579157}}}
-{"text": "2024-02-22 22:17:13.579 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c50de50>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}\n", "record": {"elapsed": {"repr": "0:00:01.342712", "seconds": 1.342712}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 23, "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c50de50>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.579157+03:00", "timestamp": 1708629433.579157}}}
-{"text": "2024-02-22 22:17:13.579 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c50de50>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}\n", "record": {"elapsed": {"repr": "0:00:01.342712", "seconds": 1.342712}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 23, "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c50de50>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.579157+03:00", "timestamp": 1708629433.579157}}}
-{"text": "2024-02-22 22:17:13.579 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c50de50>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}\n", "record": {"elapsed": {"repr": "0:00:01.342712", "seconds": 1.342712}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 23, "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c50de50>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.579157+03:00", "timestamp": 1708629433.579157}}}
-{"text": "2024-02-22 22:17:13.629 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n", "record": {"elapsed": {"repr": "0:00:01.393484", "seconds": 1.393484}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 25, "message": "Результат выполнения функции load_dataframe: result = None", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.629929+03:00", "timestamp": 1708629433.629929}}}
-{"text": "2024-02-22 22:17:13.629 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n", "record": {"elapsed": {"repr": "0:00:01.393484", "seconds": 1.393484}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 25, "message": "Результат выполнения функции load_dataframe: result = None", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.629929+03:00", "timestamp": 1708629433.629929}}}
-{"text": "2024-02-22 22:17:13.629 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n", "record": {"elapsed": {"repr": "0:00:01.393484", "seconds": 1.393484}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 25, "message": "Результат выполнения функции load_dataframe: result = None", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.629929+03:00", "timestamp": 1708629433.629929}}}
-{"text": "2024-02-22 22:17:13.629 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n", "record": {"elapsed": {"repr": "0:00:01.393484", "seconds": 1.393484}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 25, "message": "Результат выполнения функции load_dataframe: result = None", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.629929+03:00", "timestamp": 1708629433.629929}}}
-{"text": "2024-02-22 22:17:13.658 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции send_message с аргументами: args = (<TelegramMessengerModule.code.TelegramMessengerClass object at 0x7fb79c9ff550>, '74675029', 'Test message'), kwargs = {}\n", "record": {"elapsed": {"repr": "0:00:01.421569", "seconds": 1.421569}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 23, "message": "Вызов функции send_message с аргументами: args = (<TelegramMessengerModule.code.TelegramMessengerClass object at 0x7fb79c9ff550>, '74675029', 'Test message'), kwargs = {}", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.658014+03:00", "timestamp": 1708629433.658014}}}
-{"text": "2024-02-22 22:17:13.658 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции send_message с аргументами: args = (<TelegramMessengerModule.code.TelegramMessengerClass object at 0x7fb79c9ff550>, '74675029', 'Test message'), kwargs = {}\n", "record": {"elapsed": {"repr": "0:00:01.421569", "seconds": 1.421569}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 23, "message": "Вызов функции send_message с аргументами: args = (<TelegramMessengerModule.code.TelegramMessengerClass object at 0x7fb79c9ff550>, '74675029', 'Test message'), kwargs = {}", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.658014+03:00", "timestamp": 1708629433.658014}}}
-{"text": "2024-02-22 22:17:13.658 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции send_message с аргументами: args = (<TelegramMessengerModule.code.TelegramMessengerClass object at 0x7fb79c9ff550>, '74675029', 'Test message'), kwargs = {}\n", "record": {"elapsed": {"repr": "0:00:01.421569", "seconds": 1.421569}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 23, "message": "Вызов функции send_message с аргументами: args = (<TelegramMessengerModule.code.TelegramMessengerClass object at 0x7fb79c9ff550>, '74675029', 'Test message'), kwargs = {}", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.658014+03:00", "timestamp": 1708629433.658014}}}
-{"text": "2024-02-22 22:17:13.658 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции send_message с аргументами: args = (<TelegramMessengerModule.code.TelegramMessengerClass object at 0x7fb79c9ff550>, '74675029', 'Test message'), kwargs = {}\n", "record": {"elapsed": {"repr": "0:00:01.421569", "seconds": 1.421569}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 23, "message": "Вызов функции send_message с аргументами: args = (<TelegramMessengerModule.code.TelegramMessengerClass object at 0x7fb79c9ff550>, '74675029', 'Test message'), kwargs = {}", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.658014+03:00", "timestamp": 1708629433.658014}}}
-{"text": "2024-02-22 22:17:13.658 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции send_message с аргументами: args = (<TelegramMessengerModule.code.TelegramMessengerClass object at 0x7fb79c9ff550>, '74675029', 'Test message'), kwargs = {}\n", "record": {"elapsed": {"repr": "0:00:01.421569", "seconds": 1.421569}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 23, "message": "Вызов функции send_message с аргументами: args = (<TelegramMessengerModule.code.TelegramMessengerClass object at 0x7fb79c9ff550>, '74675029', 'Test message'), kwargs = {}", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.658014+03:00", "timestamp": 1708629433.658014}}}
-{"text": "2024-02-22 22:17:13.659 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции send_message: result = <coroutine object TelegramMessengerClass.send_message at 0x7fb79c903120>\n", "record": {"elapsed": {"repr": "0:00:01.422712", "seconds": 1.422712}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 25, "message": "Результат выполнения функции send_message: result = <coroutine object TelegramMessengerClass.send_message at 0x7fb79c903120>", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.659157+03:00", "timestamp": 1708629433.659157}}}
-{"text": "2024-02-22 22:17:13.659 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции send_message: result = <coroutine object TelegramMessengerClass.send_message at 0x7fb79c903120>\n", "record": {"elapsed": {"repr": "0:00:01.422712", "seconds": 1.422712}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 25, "message": "Результат выполнения функции send_message: result = <coroutine object TelegramMessengerClass.send_message at 0x7fb79c903120>", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.659157+03:00", "timestamp": 1708629433.659157}}}
-{"text": "2024-02-22 22:17:13.659 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции send_message: result = <coroutine object TelegramMessengerClass.send_message at 0x7fb79c903120>\n", "record": {"elapsed": {"repr": "0:00:01.422712", "seconds": 1.422712}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 25, "message": "Результат выполнения функции send_message: result = <coroutine object TelegramMessengerClass.send_message at 0x7fb79c903120>", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.659157+03:00", "timestamp": 1708629433.659157}}}
-{"text": "2024-02-22 22:17:13.659 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции send_message: result = <coroutine object TelegramMessengerClass.send_message at 0x7fb79c903120>\n", "record": {"elapsed": {"repr": "0:00:01.422712", "seconds": 1.422712}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 25, "message": "Результат выполнения функции send_message: result = <coroutine object TelegramMessengerClass.send_message at 0x7fb79c903120>", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.659157+03:00", "timestamp": 1708629433.659157}}}
-{"text": "2024-02-22 22:17:13.659 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции send_message: result = <coroutine object TelegramMessengerClass.send_message at 0x7fb79c903120>\n", "record": {"elapsed": {"repr": "0:00:01.422712", "seconds": 1.422712}, "exception": null, "extra": {}, "file": {"name": "code.py", "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"}, "function": "wrapper", "level": {"icon": "ℹ️", "name": "INFO", "no": 20}, "line": 25, "message": "Результат выполнения функции send_message: result = <coroutine object TelegramMessengerClass.send_message at 0x7fb79c903120>", "module": "code", "name": "LoguruModule.code", "process": {"id": 23383, "name": "MainProcess"}, "thread": {"id": 140427043782656, "name": "MainThread"}, "time": {"repr": "2024-02-22 22:17:13.659157+03:00", "timestamp": 1708629433.659157}}}
+{
+  "text": "2024-02-22 22:17:13.179 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb7b68f4250>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'OTHER_TABLE'), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:00.943486",
+      "seconds": 0.943486
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb7b68f4250>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'OTHER_TABLE'), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.179931+03:00",
+      "timestamp": 1708629433.179931
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.234 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:00.998078",
+      "seconds": 0.998078
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции load_dataframe: result = None",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.234523+03:00",
+      "timestamp": 1708629433.234523
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.342 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c912050>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.106377",
+      "seconds": 1.106377
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c912050>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.342822+03:00",
+      "timestamp": 1708629433.342822
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.342 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c912050>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.106377",
+      "seconds": 1.106377
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c912050>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.342822+03:00",
+      "timestamp": 1708629433.342822
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.353 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.117273",
+      "seconds": 1.117273
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции load_dataframe: result = None",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.353718+03:00",
+      "timestamp": 1708629433.353718
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.353 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.117273",
+      "seconds": 1.117273
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции load_dataframe: result = None",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.353718+03:00",
+      "timestamp": 1708629433.353718
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.459 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c995450>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {'if_exists': 'replace'}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.223185",
+      "seconds": 1.223185
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c995450>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {'if_exists': 'replace'}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.459630+03:00",
+      "timestamp": 1708629433.45963
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.459 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c995450>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {'if_exists': 'replace'}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.223185",
+      "seconds": 1.223185
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c995450>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {'if_exists': 'replace'}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.459630+03:00",
+      "timestamp": 1708629433.45963
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.459 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c995450>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {'if_exists': 'replace'}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.223185",
+      "seconds": 1.223185
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c995450>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {'if_exists': 'replace'}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.459630+03:00",
+      "timestamp": 1708629433.45963
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.470 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.234445",
+      "seconds": 1.234445
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции load_dataframe: result = None",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.470890+03:00",
+      "timestamp": 1708629433.47089
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.470 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.234445",
+      "seconds": 1.234445
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции load_dataframe: result = None",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.470890+03:00",
+      "timestamp": 1708629433.47089
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.470 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.234445",
+      "seconds": 1.234445
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции load_dataframe: result = None",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.470890+03:00",
+      "timestamp": 1708629433.47089
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.579 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c50de50>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.342712",
+      "seconds": 1.342712
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c50de50>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.579157+03:00",
+      "timestamp": 1708629433.579157
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.579 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c50de50>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.342712",
+      "seconds": 1.342712
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c50de50>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.579157+03:00",
+      "timestamp": 1708629433.579157
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.579 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c50de50>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.342712",
+      "seconds": 1.342712
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c50de50>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.579157+03:00",
+      "timestamp": 1708629433.579157
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.579 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c50de50>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.342712",
+      "seconds": 1.342712
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7fb79c50de50>,                  datetime  ethusdt  btcusdt  ethusdt_decoupled  percentage\n0 2024-02-02 02:02:02.002   2000.0  50000.0               60.0        1.15, 'SESSION'), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.579157+03:00",
+      "timestamp": 1708629433.579157
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.629 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.393484",
+      "seconds": 1.393484
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции load_dataframe: result = None",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.629929+03:00",
+      "timestamp": 1708629433.629929
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.629 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.393484",
+      "seconds": 1.393484
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции load_dataframe: result = None",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.629929+03:00",
+      "timestamp": 1708629433.629929
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.629 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.393484",
+      "seconds": 1.393484
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции load_dataframe: result = None",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.629929+03:00",
+      "timestamp": 1708629433.629929
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.629 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.393484",
+      "seconds": 1.393484
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции load_dataframe: result = None",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.629929+03:00",
+      "timestamp": 1708629433.629929
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.658 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции send_message с аргументами: args = (<TelegramMessengerModule.code.TelegramMessengerClass object at 0x7fb79c9ff550>, '74675029', 'Test message'), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.421569",
+      "seconds": 1.421569
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции send_message с аргументами: args = (<TelegramMessengerModule.code.TelegramMessengerClass object at 0x7fb79c9ff550>, '74675029', 'Test message'), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.658014+03:00",
+      "timestamp": 1708629433.658014
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.658 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции send_message с аргументами: args = (<TelegramMessengerModule.code.TelegramMessengerClass object at 0x7fb79c9ff550>, '74675029', 'Test message'), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.421569",
+      "seconds": 1.421569
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции send_message с аргументами: args = (<TelegramMessengerModule.code.TelegramMessengerClass object at 0x7fb79c9ff550>, '74675029', 'Test message'), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.658014+03:00",
+      "timestamp": 1708629433.658014
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.658 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции send_message с аргументами: args = (<TelegramMessengerModule.code.TelegramMessengerClass object at 0x7fb79c9ff550>, '74675029', 'Test message'), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.421569",
+      "seconds": 1.421569
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции send_message с аргументами: args = (<TelegramMessengerModule.code.TelegramMessengerClass object at 0x7fb79c9ff550>, '74675029', 'Test message'), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.658014+03:00",
+      "timestamp": 1708629433.658014
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.658 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции send_message с аргументами: args = (<TelegramMessengerModule.code.TelegramMessengerClass object at 0x7fb79c9ff550>, '74675029', 'Test message'), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.421569",
+      "seconds": 1.421569
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции send_message с аргументами: args = (<TelegramMessengerModule.code.TelegramMessengerClass object at 0x7fb79c9ff550>, '74675029', 'Test message'), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.658014+03:00",
+      "timestamp": 1708629433.658014
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.658 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции send_message с аргументами: args = (<TelegramMessengerModule.code.TelegramMessengerClass object at 0x7fb79c9ff550>, '74675029', 'Test message'), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.421569",
+      "seconds": 1.421569
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции send_message с аргументами: args = (<TelegramMessengerModule.code.TelegramMessengerClass object at 0x7fb79c9ff550>, '74675029', 'Test message'), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.658014+03:00",
+      "timestamp": 1708629433.658014
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.659 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции send_message: result = <coroutine object TelegramMessengerClass.send_message at 0x7fb79c903120>\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.422712",
+      "seconds": 1.422712
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции send_message: result = <coroutine object TelegramMessengerClass.send_message at 0x7fb79c903120>",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.659157+03:00",
+      "timestamp": 1708629433.659157
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.659 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции send_message: result = <coroutine object TelegramMessengerClass.send_message at 0x7fb79c903120>\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.422712",
+      "seconds": 1.422712
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции send_message: result = <coroutine object TelegramMessengerClass.send_message at 0x7fb79c903120>",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.659157+03:00",
+      "timestamp": 1708629433.659157
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.659 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции send_message: result = <coroutine object TelegramMessengerClass.send_message at 0x7fb79c903120>\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.422712",
+      "seconds": 1.422712
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции send_message: result = <coroutine object TelegramMessengerClass.send_message at 0x7fb79c903120>",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.659157+03:00",
+      "timestamp": 1708629433.659157
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.659 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции send_message: result = <coroutine object TelegramMessengerClass.send_message at 0x7fb79c903120>\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.422712",
+      "seconds": 1.422712
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции send_message: result = <coroutine object TelegramMessengerClass.send_message at 0x7fb79c903120>",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.659157+03:00",
+      "timestamp": 1708629433.659157
+    }
+  }
+}
+{
+  "text": "2024-02-22 22:17:13.659 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции send_message: result = <coroutine object TelegramMessengerClass.send_message at 0x7fb79c903120>\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:01.422712",
+      "seconds": 1.422712
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции send_message: result = <coroutine object TelegramMessengerClass.send_message at 0x7fb79c903120>",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 23383,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140427043782656,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-22 22:17:13.659157+03:00",
+      "timestamp": 1708629433.659157
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:47.709 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции create_coefficients с аргументами: args = (<AnalyticsModule.code.AnalyticsClass object at 0x7f9cd56b3a90>,), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:04.258893",
+      "seconds": 4.258893
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции create_coefficients с аргументами: args = (<AnalyticsModule.code.AnalyticsClass object at 0x7f9cd56b3a90>,), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:47.709453+03:00",
+      "timestamp": 1708680047.709453
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:47.736 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции get_data с аргументами: args = (<AnalyticsModule.code.AnalyticsClass object at 0x7f9cd56b3a90>,), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:04.285820",
+      "seconds": 4.28582
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции get_data с аргументами: args = (<AnalyticsModule.code.AnalyticsClass object at 0x7f9cd56b3a90>,), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:47.736380+03:00",
+      "timestamp": 1708680047.73638
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:47.736 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции get_data с аргументами: args = (<AnalyticsModule.code.AnalyticsClass object at 0x7f9cd56b3a90>,), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:04.285820",
+      "seconds": 4.28582
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции get_data с аргументами: args = (<AnalyticsModule.code.AnalyticsClass object at 0x7f9cd56b3a90>,), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:47.736380+03:00",
+      "timestamp": 1708680047.73638
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:56.773 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7f9cd533f010>,                Open time      Open      High       Low     Close    Volume              Close time Quote asset volume  Number of trades Taker buy base asset volume Taker buy quote asset volume Ignore\n0    2024-01-24 00:00:00  39889.90  39948.00  39786.80  39807.90  5111.546 2024-01-24 00:14:59.999    203868350.72666             62943                    2261.410               90211810.49426      0\n1    2024-01-24 00:15:00  39807.90  39942.80  39779.00  39881.00  2803.706 2024-01-24 00:29:59.999    111737946.71930             36301                    1529.779               60967631.66590      0\n2    2024-01-24 00:30:00  39880.90  39997.00  39869.20  39997.00  2596.039 2024-01-24 00:44:59.999    103709793.85316             37446                    1612.805               64437416.43726      0\n3    2024-01-24 00:45:00  39997.00  40247.00  39946.60  40166.90  9314.673 2024-01-24 00:59:59.999    373829094.09306            103449                    4874.835              195605087.37456      0\n4    2024-01-24 01:00:00  40166.90  40166.90  39930.00  39962.20  5093.880 2024-01-24 01:14:59.999    203940429.23717             63924                    2128.183               85199978.63930      0\n...                  ...       ...       ...       ...       ...       ...                     ...                ...               ...                         ...                          ...    ...\n2913 2024-02-23 08:15:00  51200.50  51206.80  51064.80  51086.30  1693.086 2024-02-23 08:29:59.999     86564080.43470             23777                     775.781               39670250.14360      0\n2914 2024-02-23 08:30:00  51086.20  51086.30  50867.00  51006.90  3894.383 2024-02-23 08:44:59.999    198530820.54060             50927                    1785.268               91018714.05533      0\n2915 2024-02-23 08:45:00  51006.90  51053.30  50862.30  51000.00  2662.232 2024-02-23 08:59:59.999    135629796.79875             41344                    1276.305               65034453.61120      0\n2916 2024-02-23 09:00:00  50999.90  51026.10  50903.70  51015.80  1567.995 2024-02-23 09:14:59.999     79915148.95590             30227                     817.729               41679453.37010      0\n2917 2024-02-23 09:15:00  51015.70  51110.00  51000.90  51034.30  1311.727 2024-02-23 09:29:59.999     66989182.31967             17507                     643.916               32881794.83837      0\n\n[2918 rows x 12 columns], 'BTCUSDT'), kwargs = {'dtype': {'Open time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Open': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'High': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Low': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Number of trades': <class 'sqlalchemy.sql.sqltypes.INTEGER'>, 'Taker buy base asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Taker buy quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Ignore': <class 'sqlalchemy.sql.sqltypes.SMALLINT'>}}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.322953",
+      "seconds": 13.322953
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7f9cd533f010>,                Open time      Open      High       Low     Close    Volume              Close time Quote asset volume  Number of trades Taker buy base asset volume Taker buy quote asset volume Ignore\n0    2024-01-24 00:00:00  39889.90  39948.00  39786.80  39807.90  5111.546 2024-01-24 00:14:59.999    203868350.72666             62943                    2261.410               90211810.49426      0\n1    2024-01-24 00:15:00  39807.90  39942.80  39779.00  39881.00  2803.706 2024-01-24 00:29:59.999    111737946.71930             36301                    1529.779               60967631.66590      0\n2    2024-01-24 00:30:00  39880.90  39997.00  39869.20  39997.00  2596.039 2024-01-24 00:44:59.999    103709793.85316             37446                    1612.805               64437416.43726      0\n3    2024-01-24 00:45:00  39997.00  40247.00  39946.60  40166.90  9314.673 2024-01-24 00:59:59.999    373829094.09306            103449                    4874.835              195605087.37456      0\n4    2024-01-24 01:00:00  40166.90  40166.90  39930.00  39962.20  5093.880 2024-01-24 01:14:59.999    203940429.23717             63924                    2128.183               85199978.63930      0\n...                  ...       ...       ...       ...       ...       ...                     ...                ...               ...                         ...                          ...    ...\n2913 2024-02-23 08:15:00  51200.50  51206.80  51064.80  51086.30  1693.086 2024-02-23 08:29:59.999     86564080.43470             23777                     775.781               39670250.14360      0\n2914 2024-02-23 08:30:00  51086.20  51086.30  50867.00  51006.90  3894.383 2024-02-23 08:44:59.999    198530820.54060             50927                    1785.268               91018714.05533      0\n2915 2024-02-23 08:45:00  51006.90  51053.30  50862.30  51000.00  2662.232 2024-02-23 08:59:59.999    135629796.79875             41344                    1276.305               65034453.61120      0\n2916 2024-02-23 09:00:00  50999.90  51026.10  50903.70  51015.80  1567.995 2024-02-23 09:14:59.999     79915148.95590             30227                     817.729               41679453.37010      0\n2917 2024-02-23 09:15:00  51015.70  51110.00  51000.90  51034.30  1311.727 2024-02-23 09:29:59.999     66989182.31967             17507                     643.916               32881794.83837      0\n\n[2918 rows x 12 columns], 'BTCUSDT'), kwargs = {'dtype': {'Open time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Open': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'High': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Low': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Number of trades': <class 'sqlalchemy.sql.sqltypes.INTEGER'>, 'Taker buy base asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Taker buy quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Ignore': <class 'sqlalchemy.sql.sqltypes.SMALLINT'>}}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:56.773513+03:00",
+      "timestamp": 1708680056.773513
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:56.773 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7f9cd533f010>,                Open time      Open      High       Low     Close    Volume              Close time Quote asset volume  Number of trades Taker buy base asset volume Taker buy quote asset volume Ignore\n0    2024-01-24 00:00:00  39889.90  39948.00  39786.80  39807.90  5111.546 2024-01-24 00:14:59.999    203868350.72666             62943                    2261.410               90211810.49426      0\n1    2024-01-24 00:15:00  39807.90  39942.80  39779.00  39881.00  2803.706 2024-01-24 00:29:59.999    111737946.71930             36301                    1529.779               60967631.66590      0\n2    2024-01-24 00:30:00  39880.90  39997.00  39869.20  39997.00  2596.039 2024-01-24 00:44:59.999    103709793.85316             37446                    1612.805               64437416.43726      0\n3    2024-01-24 00:45:00  39997.00  40247.00  39946.60  40166.90  9314.673 2024-01-24 00:59:59.999    373829094.09306            103449                    4874.835              195605087.37456      0\n4    2024-01-24 01:00:00  40166.90  40166.90  39930.00  39962.20  5093.880 2024-01-24 01:14:59.999    203940429.23717             63924                    2128.183               85199978.63930      0\n...                  ...       ...       ...       ...       ...       ...                     ...                ...               ...                         ...                          ...    ...\n2913 2024-02-23 08:15:00  51200.50  51206.80  51064.80  51086.30  1693.086 2024-02-23 08:29:59.999     86564080.43470             23777                     775.781               39670250.14360      0\n2914 2024-02-23 08:30:00  51086.20  51086.30  50867.00  51006.90  3894.383 2024-02-23 08:44:59.999    198530820.54060             50927                    1785.268               91018714.05533      0\n2915 2024-02-23 08:45:00  51006.90  51053.30  50862.30  51000.00  2662.232 2024-02-23 08:59:59.999    135629796.79875             41344                    1276.305               65034453.61120      0\n2916 2024-02-23 09:00:00  50999.90  51026.10  50903.70  51015.80  1567.995 2024-02-23 09:14:59.999     79915148.95590             30227                     817.729               41679453.37010      0\n2917 2024-02-23 09:15:00  51015.70  51110.00  51000.90  51034.30  1311.727 2024-02-23 09:29:59.999     66989182.31967             17507                     643.916               32881794.83837      0\n\n[2918 rows x 12 columns], 'BTCUSDT'), kwargs = {'dtype': {'Open time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Open': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'High': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Low': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Number of trades': <class 'sqlalchemy.sql.sqltypes.INTEGER'>, 'Taker buy base asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Taker buy quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Ignore': <class 'sqlalchemy.sql.sqltypes.SMALLINT'>}}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.322953",
+      "seconds": 13.322953
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7f9cd533f010>,                Open time      Open      High       Low     Close    Volume              Close time Quote asset volume  Number of trades Taker buy base asset volume Taker buy quote asset volume Ignore\n0    2024-01-24 00:00:00  39889.90  39948.00  39786.80  39807.90  5111.546 2024-01-24 00:14:59.999    203868350.72666             62943                    2261.410               90211810.49426      0\n1    2024-01-24 00:15:00  39807.90  39942.80  39779.00  39881.00  2803.706 2024-01-24 00:29:59.999    111737946.71930             36301                    1529.779               60967631.66590      0\n2    2024-01-24 00:30:00  39880.90  39997.00  39869.20  39997.00  2596.039 2024-01-24 00:44:59.999    103709793.85316             37446                    1612.805               64437416.43726      0\n3    2024-01-24 00:45:00  39997.00  40247.00  39946.60  40166.90  9314.673 2024-01-24 00:59:59.999    373829094.09306            103449                    4874.835              195605087.37456      0\n4    2024-01-24 01:00:00  40166.90  40166.90  39930.00  39962.20  5093.880 2024-01-24 01:14:59.999    203940429.23717             63924                    2128.183               85199978.63930      0\n...                  ...       ...       ...       ...       ...       ...                     ...                ...               ...                         ...                          ...    ...\n2913 2024-02-23 08:15:00  51200.50  51206.80  51064.80  51086.30  1693.086 2024-02-23 08:29:59.999     86564080.43470             23777                     775.781               39670250.14360      0\n2914 2024-02-23 08:30:00  51086.20  51086.30  50867.00  51006.90  3894.383 2024-02-23 08:44:59.999    198530820.54060             50927                    1785.268               91018714.05533      0\n2915 2024-02-23 08:45:00  51006.90  51053.30  50862.30  51000.00  2662.232 2024-02-23 08:59:59.999    135629796.79875             41344                    1276.305               65034453.61120      0\n2916 2024-02-23 09:00:00  50999.90  51026.10  50903.70  51015.80  1567.995 2024-02-23 09:14:59.999     79915148.95590             30227                     817.729               41679453.37010      0\n2917 2024-02-23 09:15:00  51015.70  51110.00  51000.90  51034.30  1311.727 2024-02-23 09:29:59.999     66989182.31967             17507                     643.916               32881794.83837      0\n\n[2918 rows x 12 columns], 'BTCUSDT'), kwargs = {'dtype': {'Open time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Open': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'High': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Low': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Number of trades': <class 'sqlalchemy.sql.sqltypes.INTEGER'>, 'Taker buy base asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Taker buy quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Ignore': <class 'sqlalchemy.sql.sqltypes.SMALLINT'>}}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:56.773513+03:00",
+      "timestamp": 1708680056.773513
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:56.773 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7f9cd533f010>,                Open time      Open      High       Low     Close    Volume              Close time Quote asset volume  Number of trades Taker buy base asset volume Taker buy quote asset volume Ignore\n0    2024-01-24 00:00:00  39889.90  39948.00  39786.80  39807.90  5111.546 2024-01-24 00:14:59.999    203868350.72666             62943                    2261.410               90211810.49426      0\n1    2024-01-24 00:15:00  39807.90  39942.80  39779.00  39881.00  2803.706 2024-01-24 00:29:59.999    111737946.71930             36301                    1529.779               60967631.66590      0\n2    2024-01-24 00:30:00  39880.90  39997.00  39869.20  39997.00  2596.039 2024-01-24 00:44:59.999    103709793.85316             37446                    1612.805               64437416.43726      0\n3    2024-01-24 00:45:00  39997.00  40247.00  39946.60  40166.90  9314.673 2024-01-24 00:59:59.999    373829094.09306            103449                    4874.835              195605087.37456      0\n4    2024-01-24 01:00:00  40166.90  40166.90  39930.00  39962.20  5093.880 2024-01-24 01:14:59.999    203940429.23717             63924                    2128.183               85199978.63930      0\n...                  ...       ...       ...       ...       ...       ...                     ...                ...               ...                         ...                          ...    ...\n2913 2024-02-23 08:15:00  51200.50  51206.80  51064.80  51086.30  1693.086 2024-02-23 08:29:59.999     86564080.43470             23777                     775.781               39670250.14360      0\n2914 2024-02-23 08:30:00  51086.20  51086.30  50867.00  51006.90  3894.383 2024-02-23 08:44:59.999    198530820.54060             50927                    1785.268               91018714.05533      0\n2915 2024-02-23 08:45:00  51006.90  51053.30  50862.30  51000.00  2662.232 2024-02-23 08:59:59.999    135629796.79875             41344                    1276.305               65034453.61120      0\n2916 2024-02-23 09:00:00  50999.90  51026.10  50903.70  51015.80  1567.995 2024-02-23 09:14:59.999     79915148.95590             30227                     817.729               41679453.37010      0\n2917 2024-02-23 09:15:00  51015.70  51110.00  51000.90  51034.30  1311.727 2024-02-23 09:29:59.999     66989182.31967             17507                     643.916               32881794.83837      0\n\n[2918 rows x 12 columns], 'BTCUSDT'), kwargs = {'dtype': {'Open time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Open': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'High': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Low': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Number of trades': <class 'sqlalchemy.sql.sqltypes.INTEGER'>, 'Taker buy base asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Taker buy quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Ignore': <class 'sqlalchemy.sql.sqltypes.SMALLINT'>}}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.322953",
+      "seconds": 13.322953
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7f9cd533f010>,                Open time      Open      High       Low     Close    Volume              Close time Quote asset volume  Number of trades Taker buy base asset volume Taker buy quote asset volume Ignore\n0    2024-01-24 00:00:00  39889.90  39948.00  39786.80  39807.90  5111.546 2024-01-24 00:14:59.999    203868350.72666             62943                    2261.410               90211810.49426      0\n1    2024-01-24 00:15:00  39807.90  39942.80  39779.00  39881.00  2803.706 2024-01-24 00:29:59.999    111737946.71930             36301                    1529.779               60967631.66590      0\n2    2024-01-24 00:30:00  39880.90  39997.00  39869.20  39997.00  2596.039 2024-01-24 00:44:59.999    103709793.85316             37446                    1612.805               64437416.43726      0\n3    2024-01-24 00:45:00  39997.00  40247.00  39946.60  40166.90  9314.673 2024-01-24 00:59:59.999    373829094.09306            103449                    4874.835              195605087.37456      0\n4    2024-01-24 01:00:00  40166.90  40166.90  39930.00  39962.20  5093.880 2024-01-24 01:14:59.999    203940429.23717             63924                    2128.183               85199978.63930      0\n...                  ...       ...       ...       ...       ...       ...                     ...                ...               ...                         ...                          ...    ...\n2913 2024-02-23 08:15:00  51200.50  51206.80  51064.80  51086.30  1693.086 2024-02-23 08:29:59.999     86564080.43470             23777                     775.781               39670250.14360      0\n2914 2024-02-23 08:30:00  51086.20  51086.30  50867.00  51006.90  3894.383 2024-02-23 08:44:59.999    198530820.54060             50927                    1785.268               91018714.05533      0\n2915 2024-02-23 08:45:00  51006.90  51053.30  50862.30  51000.00  2662.232 2024-02-23 08:59:59.999    135629796.79875             41344                    1276.305               65034453.61120      0\n2916 2024-02-23 09:00:00  50999.90  51026.10  50903.70  51015.80  1567.995 2024-02-23 09:14:59.999     79915148.95590             30227                     817.729               41679453.37010      0\n2917 2024-02-23 09:15:00  51015.70  51110.00  51000.90  51034.30  1311.727 2024-02-23 09:29:59.999     66989182.31967             17507                     643.916               32881794.83837      0\n\n[2918 rows x 12 columns], 'BTCUSDT'), kwargs = {'dtype': {'Open time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Open': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'High': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Low': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Number of trades': <class 'sqlalchemy.sql.sqltypes.INTEGER'>, 'Taker buy base asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Taker buy quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Ignore': <class 'sqlalchemy.sql.sqltypes.SMALLINT'>}}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:56.773513+03:00",
+      "timestamp": 1708680056.773513
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.092 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.641771",
+      "seconds": 13.641771
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции load_dataframe: result = None",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.092331+03:00",
+      "timestamp": 1708680057.092331
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.092 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.641771",
+      "seconds": 13.641771
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции load_dataframe: result = None",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.092331+03:00",
+      "timestamp": 1708680057.092331
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.092 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.641771",
+      "seconds": 13.641771
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции load_dataframe: result = None",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.092331+03:00",
+      "timestamp": 1708680057.092331
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.120 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7f9cd533f010>,                Open time     Open     High      Low    Close     Volume              Close time Quote asset volume  Number of trades Taker buy base asset volume Taker buy quote asset volume Ignore\n0    2024-01-24 00:00:00  2241.67  2244.94  2232.73  2235.37  51799.228 2024-01-24 00:14:59.999    116002758.78339             45869                   24037.524               53826019.56631      0\n1    2024-01-24 00:15:00  2235.38  2240.61  2231.45  2238.69  28801.416 2024-01-24 00:29:59.999     64388349.93422             31543                   14921.992               33359248.81340      0\n2    2024-01-24 00:30:00  2238.68  2243.72  2237.79  2243.20  17397.914 2024-01-24 00:44:59.999     38988417.26051             25760                    9420.472               21111741.02385      0\n3    2024-01-24 00:45:00  2243.20  2255.00  2240.75  2243.89  54948.170 2024-01-24 00:59:59.999    123563643.65322             65629                   24719.918               55590919.55800      0\n4    2024-01-24 01:00:00  2243.89  2244.07  2233.80  2235.49  34430.997 2024-01-24 01:14:59.999     77058575.20351             45153                   13032.409               29166946.79416      0\n...                  ...      ...      ...      ...      ...        ...                     ...                ...               ...                         ...                          ...    ...\n2913 2024-02-23 08:15:00  2947.99  2948.00  2934.02  2934.58  27305.079 2024-02-23 08:29:59.999     80248951.86584             38748                   10915.509               32080680.03719      0\n2914 2024-02-23 08:30:00  2934.57  2936.06  2915.98  2926.03  70884.188 2024-02-23 08:44:59.999    207349248.46370             85175                   31305.699               91597446.22639      0\n2915 2024-02-23 08:45:00  2926.02  2929.22  2913.28  2925.58  39732.171 2024-02-23 08:59:59.999    116030450.67511             62632                   20840.922               60876263.83220      0\n2916 2024-02-23 09:00:00  2925.58  2928.50  2918.02  2927.97  23056.003 2024-02-23 09:14:59.999     67414923.56295             39078                   12743.506               37265964.47317      0\n2917 2024-02-23 09:15:00  2927.97  2939.40  2926.73  2931.56  24178.851 2024-02-23 09:29:59.999     70942580.36606             29425                   12306.025               36105150.41544      0\n\n[2918 rows x 12 columns], 'ETHUSDT'), kwargs = {'dtype': {'Open time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Open': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'High': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Low': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Number of trades': <class 'sqlalchemy.sql.sqltypes.INTEGER'>, 'Taker buy base asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Taker buy quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Ignore': <class 'sqlalchemy.sql.sqltypes.SMALLINT'>}}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.669707",
+      "seconds": 13.669707
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7f9cd533f010>,                Open time     Open     High      Low    Close     Volume              Close time Quote asset volume  Number of trades Taker buy base asset volume Taker buy quote asset volume Ignore\n0    2024-01-24 00:00:00  2241.67  2244.94  2232.73  2235.37  51799.228 2024-01-24 00:14:59.999    116002758.78339             45869                   24037.524               53826019.56631      0\n1    2024-01-24 00:15:00  2235.38  2240.61  2231.45  2238.69  28801.416 2024-01-24 00:29:59.999     64388349.93422             31543                   14921.992               33359248.81340      0\n2    2024-01-24 00:30:00  2238.68  2243.72  2237.79  2243.20  17397.914 2024-01-24 00:44:59.999     38988417.26051             25760                    9420.472               21111741.02385      0\n3    2024-01-24 00:45:00  2243.20  2255.00  2240.75  2243.89  54948.170 2024-01-24 00:59:59.999    123563643.65322             65629                   24719.918               55590919.55800      0\n4    2024-01-24 01:00:00  2243.89  2244.07  2233.80  2235.49  34430.997 2024-01-24 01:14:59.999     77058575.20351             45153                   13032.409               29166946.79416      0\n...                  ...      ...      ...      ...      ...        ...                     ...                ...               ...                         ...                          ...    ...\n2913 2024-02-23 08:15:00  2947.99  2948.00  2934.02  2934.58  27305.079 2024-02-23 08:29:59.999     80248951.86584             38748                   10915.509               32080680.03719      0\n2914 2024-02-23 08:30:00  2934.57  2936.06  2915.98  2926.03  70884.188 2024-02-23 08:44:59.999    207349248.46370             85175                   31305.699               91597446.22639      0\n2915 2024-02-23 08:45:00  2926.02  2929.22  2913.28  2925.58  39732.171 2024-02-23 08:59:59.999    116030450.67511             62632                   20840.922               60876263.83220      0\n2916 2024-02-23 09:00:00  2925.58  2928.50  2918.02  2927.97  23056.003 2024-02-23 09:14:59.999     67414923.56295             39078                   12743.506               37265964.47317      0\n2917 2024-02-23 09:15:00  2927.97  2939.40  2926.73  2931.56  24178.851 2024-02-23 09:29:59.999     70942580.36606             29425                   12306.025               36105150.41544      0\n\n[2918 rows x 12 columns], 'ETHUSDT'), kwargs = {'dtype': {'Open time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Open': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'High': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Low': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Number of trades': <class 'sqlalchemy.sql.sqltypes.INTEGER'>, 'Taker buy base asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Taker buy quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Ignore': <class 'sqlalchemy.sql.sqltypes.SMALLINT'>}}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.120267+03:00",
+      "timestamp": 1708680057.120267
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.120 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7f9cd533f010>,                Open time     Open     High      Low    Close     Volume              Close time Quote asset volume  Number of trades Taker buy base asset volume Taker buy quote asset volume Ignore\n0    2024-01-24 00:00:00  2241.67  2244.94  2232.73  2235.37  51799.228 2024-01-24 00:14:59.999    116002758.78339             45869                   24037.524               53826019.56631      0\n1    2024-01-24 00:15:00  2235.38  2240.61  2231.45  2238.69  28801.416 2024-01-24 00:29:59.999     64388349.93422             31543                   14921.992               33359248.81340      0\n2    2024-01-24 00:30:00  2238.68  2243.72  2237.79  2243.20  17397.914 2024-01-24 00:44:59.999     38988417.26051             25760                    9420.472               21111741.02385      0\n3    2024-01-24 00:45:00  2243.20  2255.00  2240.75  2243.89  54948.170 2024-01-24 00:59:59.999    123563643.65322             65629                   24719.918               55590919.55800      0\n4    2024-01-24 01:00:00  2243.89  2244.07  2233.80  2235.49  34430.997 2024-01-24 01:14:59.999     77058575.20351             45153                   13032.409               29166946.79416      0\n...                  ...      ...      ...      ...      ...        ...                     ...                ...               ...                         ...                          ...    ...\n2913 2024-02-23 08:15:00  2947.99  2948.00  2934.02  2934.58  27305.079 2024-02-23 08:29:59.999     80248951.86584             38748                   10915.509               32080680.03719      0\n2914 2024-02-23 08:30:00  2934.57  2936.06  2915.98  2926.03  70884.188 2024-02-23 08:44:59.999    207349248.46370             85175                   31305.699               91597446.22639      0\n2915 2024-02-23 08:45:00  2926.02  2929.22  2913.28  2925.58  39732.171 2024-02-23 08:59:59.999    116030450.67511             62632                   20840.922               60876263.83220      0\n2916 2024-02-23 09:00:00  2925.58  2928.50  2918.02  2927.97  23056.003 2024-02-23 09:14:59.999     67414923.56295             39078                   12743.506               37265964.47317      0\n2917 2024-02-23 09:15:00  2927.97  2939.40  2926.73  2931.56  24178.851 2024-02-23 09:29:59.999     70942580.36606             29425                   12306.025               36105150.41544      0\n\n[2918 rows x 12 columns], 'ETHUSDT'), kwargs = {'dtype': {'Open time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Open': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'High': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Low': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Number of trades': <class 'sqlalchemy.sql.sqltypes.INTEGER'>, 'Taker buy base asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Taker buy quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Ignore': <class 'sqlalchemy.sql.sqltypes.SMALLINT'>}}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.669707",
+      "seconds": 13.669707
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7f9cd533f010>,                Open time     Open     High      Low    Close     Volume              Close time Quote asset volume  Number of trades Taker buy base asset volume Taker buy quote asset volume Ignore\n0    2024-01-24 00:00:00  2241.67  2244.94  2232.73  2235.37  51799.228 2024-01-24 00:14:59.999    116002758.78339             45869                   24037.524               53826019.56631      0\n1    2024-01-24 00:15:00  2235.38  2240.61  2231.45  2238.69  28801.416 2024-01-24 00:29:59.999     64388349.93422             31543                   14921.992               33359248.81340      0\n2    2024-01-24 00:30:00  2238.68  2243.72  2237.79  2243.20  17397.914 2024-01-24 00:44:59.999     38988417.26051             25760                    9420.472               21111741.02385      0\n3    2024-01-24 00:45:00  2243.20  2255.00  2240.75  2243.89  54948.170 2024-01-24 00:59:59.999    123563643.65322             65629                   24719.918               55590919.55800      0\n4    2024-01-24 01:00:00  2243.89  2244.07  2233.80  2235.49  34430.997 2024-01-24 01:14:59.999     77058575.20351             45153                   13032.409               29166946.79416      0\n...                  ...      ...      ...      ...      ...        ...                     ...                ...               ...                         ...                          ...    ...\n2913 2024-02-23 08:15:00  2947.99  2948.00  2934.02  2934.58  27305.079 2024-02-23 08:29:59.999     80248951.86584             38748                   10915.509               32080680.03719      0\n2914 2024-02-23 08:30:00  2934.57  2936.06  2915.98  2926.03  70884.188 2024-02-23 08:44:59.999    207349248.46370             85175                   31305.699               91597446.22639      0\n2915 2024-02-23 08:45:00  2926.02  2929.22  2913.28  2925.58  39732.171 2024-02-23 08:59:59.999    116030450.67511             62632                   20840.922               60876263.83220      0\n2916 2024-02-23 09:00:00  2925.58  2928.50  2918.02  2927.97  23056.003 2024-02-23 09:14:59.999     67414923.56295             39078                   12743.506               37265964.47317      0\n2917 2024-02-23 09:15:00  2927.97  2939.40  2926.73  2931.56  24178.851 2024-02-23 09:29:59.999     70942580.36606             29425                   12306.025               36105150.41544      0\n\n[2918 rows x 12 columns], 'ETHUSDT'), kwargs = {'dtype': {'Open time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Open': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'High': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Low': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Number of trades': <class 'sqlalchemy.sql.sqltypes.INTEGER'>, 'Taker buy base asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Taker buy quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Ignore': <class 'sqlalchemy.sql.sqltypes.SMALLINT'>}}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.120267+03:00",
+      "timestamp": 1708680057.120267
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.120 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7f9cd533f010>,                Open time     Open     High      Low    Close     Volume              Close time Quote asset volume  Number of trades Taker buy base asset volume Taker buy quote asset volume Ignore\n0    2024-01-24 00:00:00  2241.67  2244.94  2232.73  2235.37  51799.228 2024-01-24 00:14:59.999    116002758.78339             45869                   24037.524               53826019.56631      0\n1    2024-01-24 00:15:00  2235.38  2240.61  2231.45  2238.69  28801.416 2024-01-24 00:29:59.999     64388349.93422             31543                   14921.992               33359248.81340      0\n2    2024-01-24 00:30:00  2238.68  2243.72  2237.79  2243.20  17397.914 2024-01-24 00:44:59.999     38988417.26051             25760                    9420.472               21111741.02385      0\n3    2024-01-24 00:45:00  2243.20  2255.00  2240.75  2243.89  54948.170 2024-01-24 00:59:59.999    123563643.65322             65629                   24719.918               55590919.55800      0\n4    2024-01-24 01:00:00  2243.89  2244.07  2233.80  2235.49  34430.997 2024-01-24 01:14:59.999     77058575.20351             45153                   13032.409               29166946.79416      0\n...                  ...      ...      ...      ...      ...        ...                     ...                ...               ...                         ...                          ...    ...\n2913 2024-02-23 08:15:00  2947.99  2948.00  2934.02  2934.58  27305.079 2024-02-23 08:29:59.999     80248951.86584             38748                   10915.509               32080680.03719      0\n2914 2024-02-23 08:30:00  2934.57  2936.06  2915.98  2926.03  70884.188 2024-02-23 08:44:59.999    207349248.46370             85175                   31305.699               91597446.22639      0\n2915 2024-02-23 08:45:00  2926.02  2929.22  2913.28  2925.58  39732.171 2024-02-23 08:59:59.999    116030450.67511             62632                   20840.922               60876263.83220      0\n2916 2024-02-23 09:00:00  2925.58  2928.50  2918.02  2927.97  23056.003 2024-02-23 09:14:59.999     67414923.56295             39078                   12743.506               37265964.47317      0\n2917 2024-02-23 09:15:00  2927.97  2939.40  2926.73  2931.56  24178.851 2024-02-23 09:29:59.999     70942580.36606             29425                   12306.025               36105150.41544      0\n\n[2918 rows x 12 columns], 'ETHUSDT'), kwargs = {'dtype': {'Open time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Open': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'High': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Low': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Number of trades': <class 'sqlalchemy.sql.sqltypes.INTEGER'>, 'Taker buy base asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Taker buy quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Ignore': <class 'sqlalchemy.sql.sqltypes.SMALLINT'>}}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.669707",
+      "seconds": 13.669707
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7f9cd533f010>,                Open time     Open     High      Low    Close     Volume              Close time Quote asset volume  Number of trades Taker buy base asset volume Taker buy quote asset volume Ignore\n0    2024-01-24 00:00:00  2241.67  2244.94  2232.73  2235.37  51799.228 2024-01-24 00:14:59.999    116002758.78339             45869                   24037.524               53826019.56631      0\n1    2024-01-24 00:15:00  2235.38  2240.61  2231.45  2238.69  28801.416 2024-01-24 00:29:59.999     64388349.93422             31543                   14921.992               33359248.81340      0\n2    2024-01-24 00:30:00  2238.68  2243.72  2237.79  2243.20  17397.914 2024-01-24 00:44:59.999     38988417.26051             25760                    9420.472               21111741.02385      0\n3    2024-01-24 00:45:00  2243.20  2255.00  2240.75  2243.89  54948.170 2024-01-24 00:59:59.999    123563643.65322             65629                   24719.918               55590919.55800      0\n4    2024-01-24 01:00:00  2243.89  2244.07  2233.80  2235.49  34430.997 2024-01-24 01:14:59.999     77058575.20351             45153                   13032.409               29166946.79416      0\n...                  ...      ...      ...      ...      ...        ...                     ...                ...               ...                         ...                          ...    ...\n2913 2024-02-23 08:15:00  2947.99  2948.00  2934.02  2934.58  27305.079 2024-02-23 08:29:59.999     80248951.86584             38748                   10915.509               32080680.03719      0\n2914 2024-02-23 08:30:00  2934.57  2936.06  2915.98  2926.03  70884.188 2024-02-23 08:44:59.999    207349248.46370             85175                   31305.699               91597446.22639      0\n2915 2024-02-23 08:45:00  2926.02  2929.22  2913.28  2925.58  39732.171 2024-02-23 08:59:59.999    116030450.67511             62632                   20840.922               60876263.83220      0\n2916 2024-02-23 09:00:00  2925.58  2928.50  2918.02  2927.97  23056.003 2024-02-23 09:14:59.999     67414923.56295             39078                   12743.506               37265964.47317      0\n2917 2024-02-23 09:15:00  2927.97  2939.40  2926.73  2931.56  24178.851 2024-02-23 09:29:59.999     70942580.36606             29425                   12306.025               36105150.41544      0\n\n[2918 rows x 12 columns], 'ETHUSDT'), kwargs = {'dtype': {'Open time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Open': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'High': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Low': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Number of trades': <class 'sqlalchemy.sql.sqltypes.INTEGER'>, 'Taker buy base asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Taker buy quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Ignore': <class 'sqlalchemy.sql.sqltypes.SMALLINT'>}}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.120267+03:00",
+      "timestamp": 1708680057.120267
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.120 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7f9cd533f010>,                Open time     Open     High      Low    Close     Volume              Close time Quote asset volume  Number of trades Taker buy base asset volume Taker buy quote asset volume Ignore\n0    2024-01-24 00:00:00  2241.67  2244.94  2232.73  2235.37  51799.228 2024-01-24 00:14:59.999    116002758.78339             45869                   24037.524               53826019.56631      0\n1    2024-01-24 00:15:00  2235.38  2240.61  2231.45  2238.69  28801.416 2024-01-24 00:29:59.999     64388349.93422             31543                   14921.992               33359248.81340      0\n2    2024-01-24 00:30:00  2238.68  2243.72  2237.79  2243.20  17397.914 2024-01-24 00:44:59.999     38988417.26051             25760                    9420.472               21111741.02385      0\n3    2024-01-24 00:45:00  2243.20  2255.00  2240.75  2243.89  54948.170 2024-01-24 00:59:59.999    123563643.65322             65629                   24719.918               55590919.55800      0\n4    2024-01-24 01:00:00  2243.89  2244.07  2233.80  2235.49  34430.997 2024-01-24 01:14:59.999     77058575.20351             45153                   13032.409               29166946.79416      0\n...                  ...      ...      ...      ...      ...        ...                     ...                ...               ...                         ...                          ...    ...\n2913 2024-02-23 08:15:00  2947.99  2948.00  2934.02  2934.58  27305.079 2024-02-23 08:29:59.999     80248951.86584             38748                   10915.509               32080680.03719      0\n2914 2024-02-23 08:30:00  2934.57  2936.06  2915.98  2926.03  70884.188 2024-02-23 08:44:59.999    207349248.46370             85175                   31305.699               91597446.22639      0\n2915 2024-02-23 08:45:00  2926.02  2929.22  2913.28  2925.58  39732.171 2024-02-23 08:59:59.999    116030450.67511             62632                   20840.922               60876263.83220      0\n2916 2024-02-23 09:00:00  2925.58  2928.50  2918.02  2927.97  23056.003 2024-02-23 09:14:59.999     67414923.56295             39078                   12743.506               37265964.47317      0\n2917 2024-02-23 09:15:00  2927.97  2939.40  2926.73  2931.56  24178.851 2024-02-23 09:29:59.999     70942580.36606             29425                   12306.025               36105150.41544      0\n\n[2918 rows x 12 columns], 'ETHUSDT'), kwargs = {'dtype': {'Open time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Open': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'High': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Low': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Number of trades': <class 'sqlalchemy.sql.sqltypes.INTEGER'>, 'Taker buy base asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Taker buy quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Ignore': <class 'sqlalchemy.sql.sqltypes.SMALLINT'>}}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.669707",
+      "seconds": 13.669707
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции load_dataframe с аргументами: args = (<PostgresDBModule.code.PostgresDBClass object at 0x7f9cd533f010>,                Open time     Open     High      Low    Close     Volume              Close time Quote asset volume  Number of trades Taker buy base asset volume Taker buy quote asset volume Ignore\n0    2024-01-24 00:00:00  2241.67  2244.94  2232.73  2235.37  51799.228 2024-01-24 00:14:59.999    116002758.78339             45869                   24037.524               53826019.56631      0\n1    2024-01-24 00:15:00  2235.38  2240.61  2231.45  2238.69  28801.416 2024-01-24 00:29:59.999     64388349.93422             31543                   14921.992               33359248.81340      0\n2    2024-01-24 00:30:00  2238.68  2243.72  2237.79  2243.20  17397.914 2024-01-24 00:44:59.999     38988417.26051             25760                    9420.472               21111741.02385      0\n3    2024-01-24 00:45:00  2243.20  2255.00  2240.75  2243.89  54948.170 2024-01-24 00:59:59.999    123563643.65322             65629                   24719.918               55590919.55800      0\n4    2024-01-24 01:00:00  2243.89  2244.07  2233.80  2235.49  34430.997 2024-01-24 01:14:59.999     77058575.20351             45153                   13032.409               29166946.79416      0\n...                  ...      ...      ...      ...      ...        ...                     ...                ...               ...                         ...                          ...    ...\n2913 2024-02-23 08:15:00  2947.99  2948.00  2934.02  2934.58  27305.079 2024-02-23 08:29:59.999     80248951.86584             38748                   10915.509               32080680.03719      0\n2914 2024-02-23 08:30:00  2934.57  2936.06  2915.98  2926.03  70884.188 2024-02-23 08:44:59.999    207349248.46370             85175                   31305.699               91597446.22639      0\n2915 2024-02-23 08:45:00  2926.02  2929.22  2913.28  2925.58  39732.171 2024-02-23 08:59:59.999    116030450.67511             62632                   20840.922               60876263.83220      0\n2916 2024-02-23 09:00:00  2925.58  2928.50  2918.02  2927.97  23056.003 2024-02-23 09:14:59.999     67414923.56295             39078                   12743.506               37265964.47317      0\n2917 2024-02-23 09:15:00  2927.97  2939.40  2926.73  2931.56  24178.851 2024-02-23 09:29:59.999     70942580.36606             29425                   12306.025               36105150.41544      0\n\n[2918 rows x 12 columns], 'ETHUSDT'), kwargs = {'dtype': {'Open time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Open': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'High': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Low': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Close time': <class 'sqlalchemy.sql.sqltypes.TIMESTAMP'>, 'Quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Number of trades': <class 'sqlalchemy.sql.sqltypes.INTEGER'>, 'Taker buy base asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Taker buy quote asset volume': <class 'sqlalchemy.sql.sqltypes.FLOAT'>, 'Ignore': <class 'sqlalchemy.sql.sqltypes.SMALLINT'>}}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.120267+03:00",
+      "timestamp": 1708680057.120267
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.430 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.980207",
+      "seconds": 13.980207
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции load_dataframe: result = None",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.430767+03:00",
+      "timestamp": 1708680057.430767
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.430 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.980207",
+      "seconds": 13.980207
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции load_dataframe: result = None",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.430767+03:00",
+      "timestamp": 1708680057.430767
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.430 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.980207",
+      "seconds": 13.980207
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции load_dataframe: result = None",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.430767+03:00",
+      "timestamp": 1708680057.430767
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.430 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции load_dataframe: result = None\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.980207",
+      "seconds": 13.980207
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции load_dataframe: result = None",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.430767+03:00",
+      "timestamp": 1708680057.430767
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.440 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции get_data: result = (array([39807.9, 39881. , 39997. , ..., 51000. , 51015.8, 51034.3]), array([2235.37, 2238.69, 2243.2 , ..., 2925.58, 2927.97, 2931.56]))\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.990164",
+      "seconds": 13.990164
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции get_data: result = (array([39807.9, 39881. , 39997. , ..., 51000. , 51015.8, 51034.3]), array([2235.37, 2238.69, 2243.2 , ..., 2925.58, 2927.97, 2931.56]))",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.440724+03:00",
+      "timestamp": 1708680057.440724
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.440 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции get_data: result = (array([39807.9, 39881. , 39997. , ..., 51000. , 51015.8, 51034.3]), array([2235.37, 2238.69, 2243.2 , ..., 2925.58, 2927.97, 2931.56]))\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.990164",
+      "seconds": 13.990164
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции get_data: result = (array([39807.9, 39881. , 39997. , ..., 51000. , 51015.8, 51034.3]), array([2235.37, 2238.69, 2243.2 , ..., 2925.58, 2927.97, 2931.56]))",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.440724+03:00",
+      "timestamp": 1708680057.440724
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.440 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции get_data: result = (array([39807.9, 39881. , 39997. , ..., 51000. , 51015.8, 51034.3]), array([2235.37, 2238.69, 2243.2 , ..., 2925.58, 2927.97, 2931.56]))\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.990164",
+      "seconds": 13.990164
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции get_data: result = (array([39807.9, 39881. , 39997. , ..., 51000. , 51015.8, 51034.3]), array([2235.37, 2238.69, 2243.2 , ..., 2925.58, 2927.97, 2931.56]))",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.440724+03:00",
+      "timestamp": 1708680057.440724
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.440 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции get_data: result = (array([39807.9, 39881. , 39997. , ..., 51000. , 51015.8, 51034.3]), array([2235.37, 2238.69, 2243.2 , ..., 2925.58, 2927.97, 2931.56]))\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.990164",
+      "seconds": 13.990164
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции get_data: result = (array([39807.9, 39881. , 39997. , ..., 51000. , 51015.8, 51034.3]), array([2235.37, 2238.69, 2243.2 , ..., 2925.58, 2927.97, 2931.56]))",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.440724+03:00",
+      "timestamp": 1708680057.440724
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.445 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции create_coefficients: result = (0.057455611188697776, -145.4067749824976)\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.994867",
+      "seconds": 13.994867
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции create_coefficients: result = (0.057455611188697776, -145.4067749824976)",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.445427+03:00",
+      "timestamp": 1708680057.445427
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.445 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции create_coefficients: result = (0.057455611188697776, -145.4067749824976)\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.994867",
+      "seconds": 13.994867
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции create_coefficients: result = (0.057455611188697776, -145.4067749824976)",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.445427+03:00",
+      "timestamp": 1708680057.445427
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.445 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции create_coefficients: result = (0.057455611188697776, -145.4067749824976)\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.994867",
+      "seconds": 13.994867
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции create_coefficients: result = (0.057455611188697776, -145.4067749824976)",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.445427+03:00",
+      "timestamp": 1708680057.445427
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.445 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции create_coefficients: result = (0.057455611188697776, -145.4067749824976)\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:13.994867",
+      "seconds": 13.994867
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции create_coefficients: result = (0.057455611188697776, -145.4067749824976)",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.445427+03:00",
+      "timestamp": 1708680057.445427
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.476 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции activate с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>,), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.026303",
+      "seconds": 14.026303
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции activate с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>,), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.476863+03:00",
+      "timestamp": 1708680057.476863
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.476 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции activate с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>,), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.026303",
+      "seconds": 14.026303
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции activate с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>,), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.476863+03:00",
+      "timestamp": 1708680057.476863
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.476 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции activate с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>,), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.026303",
+      "seconds": 14.026303
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции activate с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>,), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.476863+03:00",
+      "timestamp": 1708680057.476863
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.476 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции activate с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>,), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.026303",
+      "seconds": 14.026303
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции activate с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>,), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.476863+03:00",
+      "timestamp": 1708680057.476863
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.476 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции activate с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>,), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.026303",
+      "seconds": 14.026303
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции activate с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>,), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.476863+03:00",
+      "timestamp": 1708680057.476863
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.478 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции activate: result = <coroutine object Process.activate at 0x7f9cd566b4c0>\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.028001",
+      "seconds": 14.028001
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции activate: result = <coroutine object Process.activate at 0x7f9cd566b4c0>",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.478561+03:00",
+      "timestamp": 1708680057.478561
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.478 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции activate: result = <coroutine object Process.activate at 0x7f9cd566b4c0>\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.028001",
+      "seconds": 14.028001
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции activate: result = <coroutine object Process.activate at 0x7f9cd566b4c0>",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.478561+03:00",
+      "timestamp": 1708680057.478561
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.478 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции activate: result = <coroutine object Process.activate at 0x7f9cd566b4c0>\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.028001",
+      "seconds": 14.028001
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции activate: result = <coroutine object Process.activate at 0x7f9cd566b4c0>",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.478561+03:00",
+      "timestamp": 1708680057.478561
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.478 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции activate: result = <coroutine object Process.activate at 0x7f9cd566b4c0>\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.028001",
+      "seconds": 14.028001
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции activate: result = <coroutine object Process.activate at 0x7f9cd566b4c0>",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.478561+03:00",
+      "timestamp": 1708680057.478561
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:57.478 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции activate: result = <coroutine object Process.activate at 0x7f9cd566b4c0>\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.028001",
+      "seconds": 14.028001
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции activate: result = <coroutine object Process.activate at 0x7f9cd566b4c0>",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:57.478561+03:00",
+      "timestamp": 1708680057.478561
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:58.316 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции futures_listener с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>, <binance.client.AsyncClient object at 0x7f9cd51a06d0>), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.865757",
+      "seconds": 14.865757
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции futures_listener с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>, <binance.client.AsyncClient object at 0x7f9cd51a06d0>), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:58.316317+03:00",
+      "timestamp": 1708680058.316317
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:58.316 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции futures_listener с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>, <binance.client.AsyncClient object at 0x7f9cd51a06d0>), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.865757",
+      "seconds": 14.865757
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции futures_listener с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>, <binance.client.AsyncClient object at 0x7f9cd51a06d0>), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:58.316317+03:00",
+      "timestamp": 1708680058.316317
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:58.316 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции futures_listener с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>, <binance.client.AsyncClient object at 0x7f9cd51a06d0>), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.865757",
+      "seconds": 14.865757
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции futures_listener с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>, <binance.client.AsyncClient object at 0x7f9cd51a06d0>), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:58.316317+03:00",
+      "timestamp": 1708680058.316317
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:58.316 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции futures_listener с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>, <binance.client.AsyncClient object at 0x7f9cd51a06d0>), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.865757",
+      "seconds": 14.865757
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции futures_listener с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>, <binance.client.AsyncClient object at 0x7f9cd51a06d0>), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:58.316317+03:00",
+      "timestamp": 1708680058.316317
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:58.316 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции futures_listener с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>, <binance.client.AsyncClient object at 0x7f9cd51a06d0>), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.865757",
+      "seconds": 14.865757
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции futures_listener с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>, <binance.client.AsyncClient object at 0x7f9cd51a06d0>), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:58.316317+03:00",
+      "timestamp": 1708680058.316317
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:58.316 | INFO     | LoguruModule.code:wrapper:23 - Вызов функции futures_listener с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>, <binance.client.AsyncClient object at 0x7f9cd51a06d0>), kwargs = {}\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.865757",
+      "seconds": 14.865757
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 23,
+    "message": "Вызов функции futures_listener с аргументами: args = (<__main__.Process object at 0x7f9cd56b3250>, <binance.client.AsyncClient object at 0x7f9cd51a06d0>), kwargs = {}",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:58.316317+03:00",
+      "timestamp": 1708680058.316317
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:58.317 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции futures_listener: result = <coroutine object Process.futures_listener at 0x7f9cd54cc040>\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.866785",
+      "seconds": 14.866785
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции futures_listener: result = <coroutine object Process.futures_listener at 0x7f9cd54cc040>",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:58.317345+03:00",
+      "timestamp": 1708680058.317345
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:58.317 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции futures_listener: result = <coroutine object Process.futures_listener at 0x7f9cd54cc040>\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.866785",
+      "seconds": 14.866785
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции futures_listener: result = <coroutine object Process.futures_listener at 0x7f9cd54cc040>",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:58.317345+03:00",
+      "timestamp": 1708680058.317345
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:58.317 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции futures_listener: result = <coroutine object Process.futures_listener at 0x7f9cd54cc040>\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.866785",
+      "seconds": 14.866785
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции futures_listener: result = <coroutine object Process.futures_listener at 0x7f9cd54cc040>",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:58.317345+03:00",
+      "timestamp": 1708680058.317345
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:58.317 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции futures_listener: result = <coroutine object Process.futures_listener at 0x7f9cd54cc040>\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.866785",
+      "seconds": 14.866785
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции futures_listener: result = <coroutine object Process.futures_listener at 0x7f9cd54cc040>",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:58.317345+03:00",
+      "timestamp": 1708680058.317345
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:58.317 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции futures_listener: result = <coroutine object Process.futures_listener at 0x7f9cd54cc040>\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.866785",
+      "seconds": 14.866785
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции futures_listener: result = <coroutine object Process.futures_listener at 0x7f9cd54cc040>",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:58.317345+03:00",
+      "timestamp": 1708680058.317345
+    }
+  }
+}
+{
+  "text": "2024-02-23 12:20:58.317 | INFO     | LoguruModule.code:wrapper:25 - Результат выполнения функции futures_listener: result = <coroutine object Process.futures_listener at 0x7f9cd54cc040>\n",
+  "record": {
+    "elapsed": {
+      "repr": "0:00:14.866785",
+      "seconds": 14.866785
+    },
+    "exception": null,
+    "extra": {},
+    "file": {
+      "name": "code.py",
+      "path": "/home/viktorlov/PycharmProjects/_cloned/ETHUSDT_BTCUSDT/LoguruModule/code.py"
+    },
+    "function": "wrapper",
+    "level": {
+      "icon": "ℹ️",
+      "name": "INFO",
+      "no": 20
+    },
+    "line": 25,
+    "message": "Результат выполнения функции futures_listener: result = <coroutine object Process.futures_listener at 0x7f9cd54cc040>",
+    "module": "code",
+    "name": "LoguruModule.code",
+    "process": {
+      "id": 9677,
+      "name": "MainProcess"
+    },
+    "thread": {
+      "id": 140312226283520,
+      "name": "MainThread"
+    },
+    "time": {
+      "repr": "2024-02-23 12:20:58.317345+03:00",
+      "timestamp": 1708680058.317345
+    }
+  }
+}
